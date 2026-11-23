@@ -28,6 +28,7 @@ Sesuai keputusan pemilik ("Kecualikan Gate 10 + key"), yang **tidak** diunggah:
 | `05_PRIVATE_KEY_INVENTORY/` (seluruh isi) | Inventaris signing dan prosedur kunci |
 | `09_TESTS_AND_BUILD/reports/verify_gate10.ps1` | Skrip verifikasi Gate 10 |
 | Laporan bertema Gate 10/keamanan 2026-11-15: `RevCore SECURITY AUDIT 151126.md`, `RevCore HARDENING VERIFICATION 151126.md`, `RevCore POST-INSTALL INTEGRITY VERIFICATION 151126.md`, `RevCore BUGFIX ASSET INVENTORY 151126.md` | Seluruh isinya membahas interno Gate 10 |
+| Hasil JUnit paket `com.revcore.android.security.*` (20 file XML) | Nama tes keamanan internal Gate 10; hasil agregat tetap dilaporkan di laporan tes |
 
 Selain itu, pada salinan yang diunggah dilakukan redaksi:
 

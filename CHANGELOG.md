@@ -9,7 +9,7 @@ tanggal. Cakupan yang dikecualikan: Gate 10 (`04_GATE10_SECURITY`) dan inventari
 kunci privat (`05_PRIVATE_KEY_INVENTORY`), termasuk skrip/laporan bertema Gate 10.
 
 ### Added
-- `09_REVCORE_MIGRASI_2026-11-23/` — 133 file: README indeks, verifikasi kesesuaian
+- `09_REVCORE_MIGRASI_2026-11-23/` — 115 file: README indeks, verifikasi kesesuaian
   work order, riwayat proyek, arsitektur/fitur, laporan build/signing/tes, log build,
   hasil JUnit baseline/current, masalah terbuka, indeks riset, manifest migrasi,
   dan catatan Git.
