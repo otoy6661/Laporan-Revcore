@@ -388,8 +388,13 @@ ECU nyata selama pekerjaan ini, dan tidak ada klaim validasi fisik yang dibuat.
 | 13 | Regression test | SELESAI DAN TERVERIFIKASI | Suite penuh + compile |
 | 14 | Release APK | SELESAI DAN TERVERIFIKASI | `dist/RevCore build 231126.apk`, 39.841.086 B, SHA-256 `2b4122aa…47ae9` |
 | 15 | Signing resmi | SELESAI DAN TERVERIFIKASI | v2+v3 true; sertifikat `c649cb4f…18d098`; bukan debug |
-| 16 | Upload laporan | (diisi setelah upload) | repo Laporan-Revcore |
-| 17 | Penghapusan laporan lama | (diisi setelah keputusan) | hanya laporan yang digantikan |
+| 16 | Upload laporan | SELESAI DAN TERVERIFIKASI | commit `2ca666d` di `main`; `10_REVCORE_PELAKSANAAN_2026-11-23/`; raw file dapat dibuka |
+| 17 | Penghapusan laporan lama | SELESAI DAN TERVERIFIKASI (tidak ada yang dihapus) | tidak ada laporan UI/implementasi lama yang langsung digantikan; audit/migrasi/historis dipertahankan |
+
+Link laporan baru:
+`https://github.com/otoy6661/Laporan-Revcore/tree/main/10_REVCORE_PELAKSANAAN_2026-11-23`
+Laporan induk:
+`10_REVCORE_PELAKSANAAN_2026-11-23/LAPORAN_PELAKSANAAN_MASTER_WORK_ORDER_2026-11-23.md`
 
 ## Daftar file baru (modul inti, bagian Build 221126)
 
@@ -413,6 +418,11 @@ ECU nyata selama pekerjaan ini, dan tidak ada klaim validasi fisik yang dibuat.
 
 ## Daftar laporan lama yang dihapus
 
-Belum ada; penghapusan hanya dilakukan setelah laporan baru terunggah dan
-terverifikasi, dan hanya untuk laporan UI/implementasi yang benar-benar
-digantikan.
+Tidak ada. Setelah laporan baru terunggah dan terverifikasi (`2ca666d`), seluruh
+folder lama di repository laporan diperiksa: `00_INVENTORY`, `01_HDIAG`,
+`03_EVIDENCE`, `04_FINAL_REPORTS`, `05_ARTIFACTS`, `06_REPOSITORY`,
+`07_REVCORE_TEKNIS_2026-11-20`, `08_REVCORE_REFERENCE_AUDIT_2026-11-20`,
+`09_REVCORE_MIGRASI_2026-11-23`, `Laporan Perbaikan Bug`, dan `Log` — semuanya
+merupakan audit riset, arsip migrasi, atau dokumentasi historis yang masih
+relevan, bukan laporan pelaksanaan UI/implementasi yang langsung digantikan.
+Sesuai §12/§11.3 tidak ada file yang dihapus tanpa dasar yang jelas.
