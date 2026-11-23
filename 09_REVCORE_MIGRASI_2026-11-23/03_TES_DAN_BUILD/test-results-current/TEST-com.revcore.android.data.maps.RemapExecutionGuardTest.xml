@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.data.maps.RemapExecutionGuardTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:45.189Z" hostname="DESKTOP-H3S4UH2" time="0.006">
+  <properties/>
+  <testcase name="readRefusesClosedAdapterBeforeAnyFrame" classname="com.revcore.android.data.maps.RemapExecutionGuardTest" time="0.002"/>
+  <testcase name="writeRefusesSizeMismatchAndUnknownChecksum" classname="com.revcore.android.data.maps.RemapExecutionGuardTest" time="0.001"/>
+  <testcase name="maintenanceRequiresConfirmation" classname="com.revcore.android.data.maps.RemapExecutionGuardTest" time="0.001"/>
+  <testcase name="writeUsesVendorChecksumForShindengenAndStillNeedsConfirmation" classname="com.revcore.android.data.maps.RemapExecutionGuardTest" time="0.0"/>
+  <testcase name="readRefusesUnknownFamilyInsteadOfGuessingAVendor" classname="com.revcore.android.data.maps.RemapExecutionGuardTest" time="0.0"/>
+  <testcase name="writeRefusesWithoutTypedConfirmation" classname="com.revcore.android.data.maps.RemapExecutionGuardTest" time="0.0"/>
+  <testcase name="readRefusesModelThatIsNotRemapVerified" classname="com.revcore.android.data.maps.RemapExecutionGuardTest" time="0.001"/>
+  <testcase name="writeAllowsConfirmedKeihinImageWithKnownChecksum" classname="com.revcore.android.data.maps.RemapExecutionGuardTest" time="0.0"/>
+  <testcase name="familyRoutingOnlyMapsReconstructedVendors" classname="com.revcore.android.data.maps.RemapExecutionGuardTest" time="0.0"/>
+  <testcase name="readRejectsSizeOutsideHostOperationBounds" classname="com.revcore.android.data.maps.RemapExecutionGuardTest" time="0.0"/>
+  <testcase name="verifyRefusesEmptyImageAndAllowsARealOne" classname="com.revcore.android.data.maps.RemapExecutionGuardTest" time="0.0"/>
+  <testcase name="readRequiresAKnownOrExplicitSize" classname="com.revcore.android.data.maps.RemapExecutionGuardTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

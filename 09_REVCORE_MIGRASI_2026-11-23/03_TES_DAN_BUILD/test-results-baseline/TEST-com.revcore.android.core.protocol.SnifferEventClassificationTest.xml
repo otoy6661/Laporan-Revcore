@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.core.protocol.SnifferEventClassificationTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-11-21T23:27:54.996Z" hostname="DESKTOP-H3S4UH2" time="0.152">
+  <properties/>
+  <testcase name="errorDetailsAloneMarkAnEventAsError" classname="com.revcore.android.core.protocol.SnifferEventClassificationTest" time="0.003"/>
+  <testcase name="errorCounterAndRetainedErrorsAgree" classname="com.revcore.android.core.protocol.SnifferEventClassificationTest" time="0.0"/>
+  <testcase name="failureStatusIsAnErrorEvenWhenCategoryIsRx" classname="com.revcore.android.core.protocol.SnifferEventClassificationTest" time="0.0"/>
+  <testcase name="ordinaryTrafficIsNotAnError" classname="com.revcore.android.core.protocol.SnifferEventClassificationTest" time="0.001"/>
+  <testcase name="retainedErrorsOutliveTheTrafficWindowAndExportWithoutTruncation" classname="com.revcore.android.core.protocol.SnifferEventClassificationTest" time="0.147"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

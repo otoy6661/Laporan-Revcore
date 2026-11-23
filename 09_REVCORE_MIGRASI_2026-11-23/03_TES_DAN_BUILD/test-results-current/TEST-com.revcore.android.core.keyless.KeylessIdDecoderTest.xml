@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.core.keyless.KeylessIdDecoderTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:40.007Z" hostname="DESKTOP-H3S4UH2" time="0.004">
+  <properties/>
+  <testcase name="firmware mode 0 uses the decompiled little-endian order" classname="com.revcore.android.core.keyless.KeylessIdDecoderTest" time="0.001"/>
+  <testcase name="firmware mode 1 is the legacy arithmetic in unsigned 32-bit form" classname="com.revcore.android.core.keyless.KeylessIdDecoderTest" time="0.0"/>
+  <testcase name="legacy pcx style pads small values to nine digits" classname="com.revcore.android.core.keyless.KeylessIdDecoderTest" time="0.0"/>
+  <testcase name="legacy keihin style reproduces the C# transform" classname="com.revcore.android.core.keyless.KeylessIdDecoderTest" time="0.0"/>
+  <testcase name="firmware mode 1 reproduces the shifted arithmetic" classname="com.revcore.android.core.keyless.KeylessIdDecoderTest" time="0.001"/>
+  <testcase name="model decode routes by transform mode not by wire family" classname="com.revcore.android.core.keyless.KeylessIdDecoderTest" time="0.0"/>
+  <testcase name="legacy pcx style combines second pair as high word" classname="com.revcore.android.core.keyless.KeylessIdDecoderTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

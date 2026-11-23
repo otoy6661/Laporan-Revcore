@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.security.TrustRecordTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-11-21T23:28:05.616Z" hostname="DESKTOP-H3S4UH2" time="0.017">
+  <properties/>
+  <testcase name="recordFormatTwoBindsTheInstallationMarker" classname="com.revcore.android.security.TrustRecordTest" time="0.004"/>
+  <testcase name="truncatedAndExtendedFilesAreRejected" classname="com.revcore.android.security.TrustRecordTest" time="0.001"/>
+  <testcase name="recordJsonRoundTripsWithoutLosingBindings" classname="com.revcore.android.security.TrustRecordTest" time="0.002"/>
+  <testcase name="wrongIvLengthIsRejected" classname="com.revcore.android.security.TrustRecordTest" time="0.0"/>
+  <testcase name="zeroLengthPayloadIsRejected" classname="com.revcore.android.security.TrustRecordTest" time="0.007"/>
+  <testcase name="openReturnsIvPrefixedPayloadForCipher" classname="com.revcore.android.security.TrustRecordTest" time="0.001"/>
+  <testcase name="aadBindsPackageName" classname="com.revcore.android.security.TrustRecordTest" time="0.0"/>
+  <testcase name="oldFormatOneRecordIsNotCurrent" classname="com.revcore.android.security.TrustRecordTest" time="0.002"/>
+  <testcase name="unsupportedVersionIsRejected" classname="com.revcore.android.security.TrustRecordTest" time="0.0"/>
+  <testcase name="wrongMagicIsRejected" classname="com.revcore.android.security.TrustRecordTest" time="0.0"/>
+  <testcase name="sealWritesVersionedHeaderAndExactLength" classname="com.revcore.android.security.TrustRecordTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

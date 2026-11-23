@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.core.usb.AdapterConnectionPolicyTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-11-21T23:27:55.234Z" hostname="DESKTOP-H3S4UH2" time="0.004">
+  <properties/>
+  <testcase name="detachOfOtherAdapter_keepsSelectedConnection" classname="com.revcore.android.core.usb.AdapterConnectionPolicyTest" time="0.001"/>
+  <testcase name="supportedVendors_matchTransportProbeTable" classname="com.revcore.android.core.usb.AdapterConnectionPolicyTest" time="0.0"/>
+  <testcase name="attachWithoutPermission_requestsPermission" classname="com.revcore.android.core.usb.AdapterConnectionPolicyTest" time="0.001"/>
+  <testcase name="attachWithPermission_opensAdapterWithoutConnectButton" classname="com.revcore.android.core.usb.AdapterConnectionPolicyTest" time="0.0"/>
+  <testcase name="unsupportedDevice_isIgnoredInsteadOfPrompting" classname="com.revcore.android.core.usb.AdapterConnectionPolicyTest" time="0.0"/>
+  <testcase name="permissionDenial_isNotRetriedAutomatically" classname="com.revcore.android.core.usb.AdapterConnectionPolicyTest" time="0.0"/>
+  <testcase name="manualDisconnect_pausesAutoConnectEvenWithPermission" classname="com.revcore.android.core.usb.AdapterConnectionPolicyTest" time="0.001"/>
+  <testcase name="staleSelection_tearsDownEvenWithoutMatchingDetachEvent" classname="com.revcore.android.core.usb.AdapterConnectionPolicyTest" time="0.0"/>
+  <testcase name="noSelectedAdapter_hasNothingToTearDown" classname="com.revcore.android.core.usb.AdapterConnectionPolicyTest" time="0.0"/>
+  <testcase name="detachOfSelectedAdapter_tearsDownConnection" classname="com.revcore.android.core.usb.AdapterConnectionPolicyTest" time="0.0"/>
+  <testcase name="resumeReconnectsOnlyWithPermissionAndNoPauseOrDenial" classname="com.revcore.android.core.usb.AdapterConnectionPolicyTest" time="0.0"/>
+  <testcase name="alreadyConnected_doesNotOpenSecondConnection" classname="com.revcore.android.core.usb.AdapterConnectionPolicyTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

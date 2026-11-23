@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.data.ecu.EcmIndonesianReferenceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:40.992Z" hostname="DESKTOP-H3S4UH2" time="0.203">
+  <properties/>
+  <testcase name="validatorReportsConflictsInsteadOfChoosingOneRecord" classname="com.revcore.android.data.ecu.EcmIndonesianReferenceTest" time="0.004"/>
+  <testcase name="mergedAssetReportsTheKnownEcmIdConflictWithoutRemovingRecords" classname="com.revcore.android.data.ecu.EcmIndonesianReferenceTest" time="0.085"/>
+  <testcase name="everyReferenceRecordExistsOnceInTheMergedAssetWithIdenticalFields" classname="com.revcore.android.data.ecu.EcmIndonesianReferenceTest" time="0.084"/>
+  <testcase name="referenceFileIsTheFilteredIndonesianCatalogAndStaysImmutable" classname="com.revcore.android.data.ecu.EcmIndonesianReferenceTest" time="0.03"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.ui.livedata.LiveDataPresentationTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:47.604Z" hostname="DESKTOP-H3S4UH2" time="0.002">
+  <properties/>
+  <testcase name="first valid data switches to the live layout" classname="com.revcore.android.ui.livedata.LiveDataPresentationTest" time="0.001"/>
+  <testcase name="connected without a valid frame waits instead of showing an empty table" classname="com.revcore.android.ui.livedata.LiveDataPresentationTest" time="0.0"/>
+  <testcase name="a session that already received data keeps the table when samples stop" classname="com.revcore.android.ui.livedata.LiveDataPresentationTest" time="0.001"/>
+  <testcase name="afr is hidden unless the o2 sample is current and valid" classname="com.revcore.android.ui.livedata.LiveDataPresentationTest" time="0.0"/>
+  <testcase name="before the vehicle is connected only the instruction pane is shown" classname="com.revcore.android.ui.livedata.LiveDataPresentationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

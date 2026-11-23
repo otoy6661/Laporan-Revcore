@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.data.maps.MapCatalogFlashEngineTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:43.602Z" hostname="DESKTOP-H3S4UH2" time="0.101">
+  <properties/>
+  <testcase name="fullFlashStateSequenceNeverReachesWriteEnabled" classname="com.revcore.android.data.maps.MapCatalogFlashEngineTest" time="0.018"/>
+  <testcase name="editedCopyIsStoredSeparatelyAndOriginalIsImmutable" classname="com.revcore.android.data.maps.MapCatalogFlashEngineTest" time="0.05"/>
+  <testcase name="catalogRequiresManualProfileAndRecordsEvidence" classname="com.revcore.android.data.maps.MapCatalogFlashEngineTest" time="0.022"/>
+  <testcase name="incompatibleValidationFailsTheImageGate" classname="com.revcore.android.data.maps.MapCatalogFlashEngineTest" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

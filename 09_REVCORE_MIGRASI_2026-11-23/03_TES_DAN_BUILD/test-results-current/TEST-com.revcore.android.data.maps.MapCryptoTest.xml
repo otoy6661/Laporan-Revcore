@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.data.maps.MapCryptoTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:43.713Z" hostname="DESKTOP-H3S4UH2" time="0.028">
+  <properties/>
+  <testcase name="sha256MatchesKnownVector" classname="com.revcore.android.data.maps.MapCryptoTest" time="0.001"/>
+  <testcase name="exactBlockPayloadGainsSixteenPaddingBytes" classname="com.revcore.android.data.maps.MapCryptoTest" time="0.0"/>
+  <testcase name="emptyPlaintextGetsFullPaddingBlockAndRoundTrips" classname="com.revcore.android.data.maps.MapCryptoTest" time="0.0"/>
+  <testcase name="nonBlockSizedInputIsRejectedBeforeDecryption" classname="com.revcore.android.data.maps.MapCryptoTest" time="0.0"/>
+  <testcase name="sampleMap_decryptsToKnownPayloadAndReencryptsIdentically" classname="com.revcore.android.data.maps.MapCryptoTest" time="0.025"/>
+  <testcase name="invalidPaddingIsRejectedEvenWhenAesItselfSucceeds" classname="com.revcore.android.data.maps.MapCryptoTest" time="0.001"/>
+  <testcase name="extensionRecognitionMatchesFlashPro" classname="com.revcore.android.data.maps.MapCryptoTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

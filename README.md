@@ -20,6 +20,7 @@ Laporan Tahap 1 dipertahankan utuh sebagai riwayat penelitian. Dokumen Tahap 2 m
 | `06_REPOSITORY/` | Daftar file lama yang diganti + laporan pembaruan repository |
 | `07_REVCORE_TEKNIS_2026-11-20/` | Laporan teknis audit RevCore 2026-11-20 (Mode `0x5F`, disconnect, matriks status, build/signing, regresi) |
 | `08_REVCORE_REFERENCE_AUDIT_2026-11-20/` | Laporan audit referensi penuh 2026-11-20 (H-Diag, FlashPro Keyless, FTDI K-Line, gap RevCore) |
+| `09_REVCORE_MIGRASI_2026-11-23/` | Laporan migrasi, rebuild, tes, verifikasi paket, dan verifikasi kesesuaian work order (Gate 10 & inventaris kunci dikecualikan) |
 
 ## Laporan teknis RevCore (2026-11-20)
 
@@ -44,6 +45,15 @@ telah dihapus dan diganti seluruhnya; tidak ada file lama dan baru yang dicampur
 - [REVCORE_IMPLEMENTATION_GAP_ANALYSIS.md](08_REVCORE_REFERENCE_AUDIT_2026-11-20/REVCORE_IMPLEMENTATION_GAP_ANALYSIS.md) — audit RevCore + gap matrix
 - [RESEARCH_EVIDENCE_INDEX.md](08_REVCORE_REFERENCE_AUDIT_2026-11-20/RESEARCH_EVIDENCE_INDEX.md) — indeks sumber dan bukti
 - [UNRESOLVED_FINDINGS_AND_RISKS.md](08_REVCORE_REFERENCE_AUDIT_2026-11-20/UNRESOLVED_FINDINGS_AND_RISKS.md) — temuan terbuka dan risiko
+
+## Laporan migrasi dan verifikasi (2026-11-23)
+
+Perintah pemilik: unggah laporan migrasi/rebuild/tes/verifikasi ke folder tanggal.
+Cakupan dikecualikan atas keputusan pemilik: Gate 10 dan inventaris kunci privat.
+
+- [README folder](09_REVCORE_MIGRASI_2026-11-23/README.md) — indeks isi dan catatan pengecualian
+- [Verifikasi kesesuaian work order](09_REVCORE_MIGRASI_2026-11-23/VERIFIKASI_KESESUAIAN_WO_2026-11-23.md) — status per pasal, gap terbuka
+- [Verifikasi paket migrasi](09_REVCORE_MIGRASI_2026-11-23/06_MANIFEST_MIGRASI/BACKUP_VERIFICATION_REPORT.md) — 3.631 file, 3.631/3.631 OK
 
 ## Laporan wajib
 

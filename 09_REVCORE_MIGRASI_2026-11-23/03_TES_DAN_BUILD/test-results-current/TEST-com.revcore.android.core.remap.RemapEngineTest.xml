@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.core.remap.RemapEngineTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:40.799Z" hostname="DESKTOP-H3S4UH2" time="0.094">
+  <properties/>
+  <testcase name="flashCountTriesKeihinThenShindengen" classname="com.revcore.android.core.remap.RemapEngineTest" time="0.017"/>
+  <testcase name="shindengenCounterReset_sendsUnlockThenErase" classname="com.revcore.android.core.remap.RemapEngineTest" time="0.005"/>
+  <testcase name="keihinWrite_linkLossOnBlockIsRecoveryRequired" classname="com.revcore.android.core.remap.RemapEngineTest" time="0.014"/>
+  <testcase name="shindengenWrite_usesComputedSeedKeyAndChecksumFixedImage" classname="com.revcore.android.core.remap.RemapEngineTest" time="0.008"/>
+  <testcase name="unconfirmedWriteSendsNothing" classname="com.revcore.android.core.remap.RemapEngineTest" time="0.003"/>
+  <testcase name="readWithoutAnyReplyIsFailedAndReturnsNoData" classname="com.revcore.android.core.remap.RemapEngineTest" time="0.006"/>
+  <testcase name="resetEcm_withoutFinalAckIsFailedNotSuccess" classname="com.revcore.android.core.remap.RemapEngineTest" time="0.005"/>
+  <testcase name="keihinRead_retriesDirectAndTablePathsThenReturnsTheImage" classname="com.revcore.android.core.remap.RemapEngineTest" time="0.006"/>
+  <testcase name="keihinWrite_writesAllBlocksAndSendsExit" classname="com.revcore.android.core.remap.RemapEngineTest" time="0.007"/>
+  <testcase name="resetEcm_sendsTheReferenceSequenceOnlyAfterConfirmation" classname="com.revcore.android.core.remap.RemapEngineTest" time="0.004"/>
+  <testcase name="shindengenWrite_refusesWithoutSignatureAndSendsNothing" classname="com.revcore.android.core.remap.RemapEngineTest" time="0.003"/>
+  <testcase name="fastReadSwitchesTo62500AndRestores10400" classname="com.revcore.android.core.remap.RemapEngineTest" time="0.005"/>
+  <testcase name="verifyImage_reportsTheFirstMismatch" classname="com.revcore.android.core.remap.RemapEngineTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

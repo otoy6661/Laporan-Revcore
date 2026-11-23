@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.security.BinaryXmlStructureParityTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-21T23:28:04.268Z" hostname="DESKTOP-H3S4UH2" time="0.096">
+  <properties/>
+  <testcase name="kotlinTokensMatchBuildToolForCompiledLayout" classname="com.revcore.android.security.BinaryXmlStructureParityTest" time="0.08"/>
+  <testcase name="realManifestDeclaresOfficialPackageAndLauncher" classname="com.revcore.android.security.BinaryXmlStructureParityTest" time="0.006"/>
+  <testcase name="kotlinTokensMatchBuildToolForAndroidManifest" classname="com.revcore.android.security.BinaryXmlStructureParityTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

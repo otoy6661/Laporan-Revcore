@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.ui.StartupTimingTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:47.593Z" hostname="DESKTOP-H3S4UH2" time="0.004">
+  <properties/>
+  <testcase name="failure path still shows the loading screen after the hold" classname="com.revcore.android.ui.StartupTimingTest" time="0.0"/>
+  <testcase name="hold is exactly two seconds and loading is forbidden before it ends" classname="com.revcore.android.ui.StartupTimingTest" time="0.001"/>
+  <testcase name="preparing is a distinct static state and starts no loading progress" classname="com.revcore.android.ui.StartupTimingTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

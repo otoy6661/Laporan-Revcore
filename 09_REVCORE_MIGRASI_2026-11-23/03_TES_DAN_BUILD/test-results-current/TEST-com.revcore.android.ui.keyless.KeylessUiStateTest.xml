@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.ui.keyless.KeylessUiStateTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:47.600Z" hostname="DESKTOP-H3S4UH2" time="0.003">
+  <properties/>
+  <testcase name="initial state is waiting and maintenance is not available" classname="com.revcore.android.ui.keyless.KeylessUiStateTest" time="0.001"/>
+  <testcase name="verified reset and renew keep separate statuses" classname="com.revcore.android.ui.keyless.KeylessUiStateTest" time="0.001"/>
+  <testcase name="an invalidated read falls back to waiting and disarms maintenance" classname="com.revcore.android.ui.keyless.KeylessUiStateTest" time="0.0"/>
+  <testcase name="ack without verified read-back is not success" classname="com.revcore.android.ui.keyless.KeylessUiStateTest" time="0.0"/>
+  <testcase name="successful valid read arms reset and renew only while adapter is connected" classname="com.revcore.android.ui.keyless.KeylessUiStateTest" time="0.0"/>
+  <testcase name="failed read is reported as failed and does not arm maintenance" classname="com.revcore.android.ui.keyless.KeylessUiStateTest" time="0.0"/>
+  <testcase name="busy operation keeps maintenance disabled" classname="com.revcore.android.ui.keyless.KeylessUiStateTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

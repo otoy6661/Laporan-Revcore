@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.core.tuning.TuningLogStoreTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:40.912Z" hostname="DESKTOP-H3S4UH2" time="0.014">
+  <properties/>
+  <testcase name="progressStaysUnavailableWhenTheTotalIsUnknown" classname="com.revcore.android.core.tuning.TuningLogStoreTest" time="0.008"/>
+  <testcase name="clearingTheViewRetainsTheFullSessionHistory" classname="com.revcore.android.core.tuning.TuningLogStoreTest" time="0.001"/>
+  <testcase name="onlyOneTerminalEventIsAcceptedPerOperation" classname="com.revcore.android.core.tuning.TuningLogStoreTest" time="0.0"/>
+  <testcase name="pausedDisplayHidesNewEventsWithoutStoppingTheStore" classname="com.revcore.android.core.tuning.TuningLogStoreTest" time="0.0"/>
+  <testcase name="exportContainsSessionAndRetainedHistory" classname="com.revcore.android.core.tuning.TuningLogStoreTest" time="0.001"/>
+  <testcase name="failedReadKeepsTheLastMeasuredByteCount" classname="com.revcore.android.core.tuning.TuningLogStoreTest" time="0.001"/>
+  <testcase name="percentIsUnavailableWithoutARealTotal" classname="com.revcore.android.core.tuning.TuningLogStoreTest" time="0.001"/>
+  <testcase name="percentNeverClaimsCompletionBeforeTheTotalIsReached" classname="com.revcore.android.core.tuning.TuningLogStoreTest" time="0.0"/>
+  <testcase name="sessionIdIsStableAcrossEvents" classname="com.revcore.android.core.tuning.TuningLogStoreTest" time="0.001"/>
+  <testcase name="progressTracksBytesActuallyProcessed" classname="com.revcore.android.core.tuning.TuningLogStoreTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

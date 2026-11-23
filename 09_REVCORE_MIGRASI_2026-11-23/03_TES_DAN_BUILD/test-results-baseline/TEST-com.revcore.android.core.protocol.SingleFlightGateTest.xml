@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.core.protocol.SingleFlightGateTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-21T23:27:54.981Z" hostname="DESKTOP-H3S4UH2" time="0.004">
+  <properties/>
+  <testcase name="exit_allowsNextIdentificationAttempt" classname="com.revcore.android.core.protocol.SingleFlightGateTest" time="0.001"/>
+  <testcase name="secondCaller_isRejectedWhileFirstIsRunning" classname="com.revcore.android.core.protocol.SingleFlightGateTest" time="0.0"/>
+  <testcase name="reset_releasesGateAfterCancelledWork" classname="com.revcore.android.core.protocol.SingleFlightGateTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

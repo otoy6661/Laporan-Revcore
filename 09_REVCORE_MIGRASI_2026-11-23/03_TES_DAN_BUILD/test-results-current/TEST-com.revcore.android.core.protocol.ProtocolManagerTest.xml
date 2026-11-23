@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.core.protocol.ProtocolManagerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:40.759Z" hostname="DESKTOP-H3S4UH2" time="0.009">
+  <properties/>
+  <testcase name="identification failure is reported as failed not ready" classname="com.revcore.android.core.protocol.ProtocolManagerTest" time="0.005"/>
+  <testcase name="live data cannot become active while another protocol owns the wire" classname="com.revcore.android.core.protocol.ProtocolManagerTest" time="0.001"/>
+  <testcase name="open failure never reports the adapter as open" classname="com.revcore.android.core.protocol.ProtocolManagerTest" time="0.001"/>
+  <testcase name="exclusive lease is single owner and refuses without the adapter" classname="com.revcore.android.core.protocol.ProtocolManagerTest" time="0.0"/>
+  <testcase name="opening the adapter makes every protocol idle but not active" classname="com.revcore.android.core.protocol.ProtocolManagerTest" time="0.0"/>
+  <testcase name="ecu reset clears ecu sessions but keeps the adapter open" classname="com.revcore.android.core.protocol.ProtocolManagerTest" time="0.0"/>
+  <testcase name="closing or losing the adapter revokes the lease and all statuses" classname="com.revcore.android.core.protocol.ProtocolManagerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

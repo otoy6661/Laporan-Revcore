@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.security.UiIntegrityManifestTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:46.856Z" hostname="DESKTOP-H3S4UH2" time="0.734">
+  <properties/>
+  <testcase name="identityStringRemovedFromDexFails" classname="com.revcore.android.security.UiIntegrityManifestTest" time="0.03"/>
+  <testcase name="oneSpaceInResourcesArscStringFailsUiResourceVerification" classname="com.revcore.android.security.UiIntegrityManifestTest" time="0.016"/>
+  <testcase name="changedDexFailsDexVerification" classname="com.revcore.android.security.UiIntegrityManifestTest" time="0.012"/>
+  <testcase name="deletedResourceFailsInventoryComparison" classname="com.revcore.android.security.UiIntegrityManifestTest" time="0.015"/>
+  <testcase name="injectedResourceFailsInventoryComparison" classname="com.revcore.android.security.UiIntegrityManifestTest" time="0.017"/>
+  <testcase name="changedStructureTokensFailEvenWithMatchingBytes" classname="com.revcore.android.security.UiIntegrityManifestTest" time="0.014"/>
+  <testcase name="signedEnvelopeRoundTripsAndDetectsTampering" classname="com.revcore.android.security.UiIntegrityManifestTest" time="0.539"/>
+  <testcase name="oneByteChangeInAndroidManifestFailsUiResourceVerification" classname="com.revcore.android.security.UiIntegrityManifestTest" time="0.011"/>
+  <testcase name="matchingUiDexAndStructurePass" classname="com.revcore.android.security.UiIntegrityManifestTest" time="0.013"/>
+  <testcase name="archiveFingerprintIsStableAndChangesWithAnEntry" classname="com.revcore.android.security.UiIntegrityManifestTest" time="0.029"/>
+  <testcase name="oneByteResourceChangeFailsUiResourceVerification" classname="com.revcore.android.security.UiIntegrityManifestTest" time="0.014"/>
+  <testcase name="changedIdentityValueFailsIdentityVerification" classname="com.revcore.android.security.UiIntegrityManifestTest" time="0.01"/>
+  <testcase name="inconsistentInternalDigestFailsClosed" classname="com.revcore.android.security.UiIntegrityManifestTest" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

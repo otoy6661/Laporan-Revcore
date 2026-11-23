@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.core.protocol.BaselineProtocolTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-21T23:27:54.644Z" hostname="DESKTOP-H3S4UH2" time="0.005">
+  <properties/>
+  <testcase name="baseline DTC and clear requests have valid Honda checksums" classname="com.revcore.android.core.protocol.BaselineProtocolTest" time="0.001"/>
+  <testcase name="empty DTC payload reports no codes" classname="com.revcore.android.core.protocol.BaselineProtocolTest" time="0.002"/>
+  <testcase name="count prefixed DTC payload maps known Honda codes" classname="com.revcore.android.core.protocol.BaselineProtocolTest" time="0.001"/>
+  <testcase name="baseline identification requests have valid Honda checksums" classname="com.revcore.android.core.protocol.BaselineProtocolTest" time="0.0"/>
+  <testcase name="baseline live data tables have valid Honda checksums" classname="com.revcore.android.core.protocol.BaselineProtocolTest" time="0.001"/>
+  <testcase name="direct DTC payload filters protocol bytes and invalid sub codes" classname="com.revcore.android.core.protocol.BaselineProtocolTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

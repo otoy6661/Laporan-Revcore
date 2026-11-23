@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.core.keyless.KeylessResetEngineTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:40.382Z" hostname="DESKTOP-H3S4UH2" time="0.241">
+  <properties/>
+  <testcase name="keihinReset_writesFourPageFramesAndVerifiesKeyArea" classname="com.revcore.android.core.keyless.KeylessResetEngineTest" time="0.052"/>
+  <testcase name="keihinRenew_runsTheSameZeroWriteSequenceAsReset" classname="com.revcore.android.core.keyless.KeylessResetEngineTest" time="0.032"/>
+  <testcase name="renewWithoutAPassingReadPreconditionSendsNoWriteFrame" classname="com.revcore.android.core.keyless.KeylessResetEngineTest" time="0.011"/>
+  <testcase name="linkLossDuringWrite_isRecoveryRequired" classname="com.revcore.android.core.keyless.KeylessResetEngineTest" time="0.032"/>
+  <testcase name="unconfirmedResetSendsNothing" classname="com.revcore.android.core.keyless.KeylessResetEngineTest" time="0.003"/>
+  <testcase name="echoOnlyWriteReplies_areNotAcknowledgedAndNeverReportedSuccess" classname="com.revcore.android.core.keyless.KeylessResetEngineTest" time="0.026"/>
+  <testcase name="shindengenReset_zeroes176AddressesAndVerifiesReadBack" classname="com.revcore.android.core.keyless.KeylessResetEngineTest" time="0.084"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

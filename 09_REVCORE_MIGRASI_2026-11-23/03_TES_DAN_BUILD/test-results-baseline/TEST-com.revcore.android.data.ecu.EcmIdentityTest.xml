@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.data.ecu.EcmIdentityTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-11-21T23:27:55.360Z" hostname="DESKTOP-H3S4UH2" time="0.094">
+  <properties/>
+  <testcase name="leadingZeroesAreNotSilentlyStrippedToForceExactMatch" classname="com.revcore.android.data.ecu.EcmIdentityTest" time="0.04"/>
+  <testcase name="duplicateExactEcmId_isAmbiguousAndChoosesNothing" classname="com.revcore.android.data.ecu.EcmIdentityTest" time="0.003"/>
+  <testcase name="unknownIdentity_isNotFoundWithoutPlaceholderModel" classname="com.revcore.android.data.ecu.EcmIdentityTest" time="0.005"/>
+  <testcase name="unreadableIdentityIsUnsupported" classname="com.revcore.android.data.ecu.EcmIdentityTest" time="0.015"/>
+  <testcase name="multiFieldPayloadKeepsCompleteDocumentedTokens" classname="com.revcore.android.data.ecu.EcmIdentityTest" time="0.006"/>
+  <testcase name="asciiPayloadKeepsEveryCharacterAndDoesNotBecomeEcmId" classname="com.revcore.android.data.ecu.EcmIdentityTest" time="0.002"/>
+  <testcase name="matchQualityNeverUpgradesUnverifiedRecords" classname="com.revcore.android.data.ecu.EcmIdentityTest" time="0.004"/>
+  <testcase name="exactEcmId_resolvesOneModel" classname="com.revcore.android.data.ecu.EcmIdentityTest" time="0.001"/>
+  <testcase name="partNumberMatchesOnPartNumberFieldOnly" classname="com.revcore.android.data.ecu.EcmIdentityTest" time="0.0"/>
+  <testcase name="readableButUnregisteredShapedIdIsUnknownNotUnsupported" classname="com.revcore.android.data.ecu.EcmIdentityTest" time="0.0"/>
+  <testcase name="fourByteId_isOnlyACandidateAndNeverAPublishedModel" classname="com.revcore.android.data.ecu.EcmIdentityTest" time="0.001"/>
+  <testcase name="regressionRawResponseCanonicalizesToTheDocumentedEcmId" classname="com.revcore.android.data.ecu.EcmIdentityTest" time="0.002"/>
+  <testcase name="continuousHexIdentifierIsNeverSplitIntoTokens" classname="com.revcore.android.data.ecu.EcmIdentityTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

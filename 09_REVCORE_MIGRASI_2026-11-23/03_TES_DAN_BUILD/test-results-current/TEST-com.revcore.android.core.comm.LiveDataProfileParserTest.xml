@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.core.comm.LiveDataProfileParserTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:39.946Z" hostname="DESKTOP-H3S4UH2" time="0.022">
+  <properties/>
+  <testcase name="afrHasNoFieldInAnyReconstructedTable" classname="com.revcore.android.core.comm.LiveDataProfileParserTest" time="0.004"/>
+  <testcase name="keyOnWithoutRpmStillYieldsValidParameters" classname="com.revcore.android.core.comm.LiveDataProfileParserTest" time="0.009"/>
+  <testcase name="everyLayoutIsProvenFromFirmwareNotHypothesis" classname="com.revcore.android.core.comm.LiveDataProfileParserTest" time="0.001"/>
+  <testcase name="staleOnlyTransitionsPreviouslyValidParameters" classname="com.revcore.android.core.comm.LiveDataProfileParserTest" time="0.001"/>
+  <testcase name="dat20FieldsAreEngineRunningOnly" classname="com.revcore.android.core.comm.LiveDataProfileParserTest" time="0.0"/>
+  <testcase name="tpsPercentIsActualAdcValueWithoutAutoZero" classname="com.revcore.android.core.comm.LiveDataProfileParserTest" time="0.001"/>
+  <testcase name="afrIsReportedUnsupportedWithoutOverridingParsedValues" classname="com.revcore.android.core.comm.LiveDataProfileParserTest" time="0.0"/>
+  <testcase name="datD1_exposesGearAndFlagsWithoutGuessing" classname="com.revcore.android.core.comm.LiveDataProfileParserTest" time="0.0"/>
+  <testcase name="implausibleRpm_doesNotInvalidateOtherReadableParameters" classname="com.revcore.android.core.comm.LiveDataProfileParserTest" time="0.0"/>
+  <testcase name="ffIsOnlyTreatedAsMissingForFieldsWithAnAlternateOffset" classname="com.revcore.android.core.comm.LiveDataProfileParserTest" time="0.0"/>
+  <testcase name="implausibleTemperature_isRejectedNotClamped" classname="com.revcore.android.core.comm.LiveDataProfileParserTest" time="0.001"/>
+  <testcase name="requestFramesAreFiveBytesWithValidChecksum" classname="com.revcore.android.core.comm.LiveDataProfileParserTest" time="0.001"/>
+  <testcase name="dat17_mapsProvenOffsetsAndPrefersPrimaryEct" classname="com.revcore.android.core.comm.LiveDataProfileParserTest" time="0.001"/>
+  <testcase name="dat13_hasNoSpeedField" classname="com.revcore.android.core.comm.LiveDataProfileParserTest" time="0.0"/>
+  <testcase name="dat11_mapsMapBatterySpeedInjectorAndIgnition" classname="com.revcore.android.core.comm.LiveDataProfileParserTest" time="0.0"/>
+  <testcase name="shortPayload_marksMissingFieldsUnavailableWithoutZeroing" classname="com.revcore.android.core.comm.LiveDataProfileParserTest" time="0.0"/>
+  <testcase name="koeoMarksOnlyEngineRunningSensorsAndKeepsOthersValid" classname="com.revcore.android.core.comm.LiveDataProfileParserTest" time="0.001"/>
+  <testcase name="dat20_mapsO2AndStfOnlyAndNeverFabricatesAfr" classname="com.revcore.android.core.comm.LiveDataProfileParserTest" time="0.0"/>
+  <testcase name="dat16_mapsRideByWireSpeedAndSingleByteInjector" classname="com.revcore.android.core.comm.LiveDataProfileParserTest" time="0.0"/>
+  <testcase name="dat17_ectFallsBackToBytes8And9OnlyWhenPrimaryIsFf" classname="com.revcore.android.core.comm.LiveDataProfileParserTest" time="0.001"/>
+  <testcase name="unknownProfileHasNoImplicitFallback" classname="com.revcore.android.core.comm.LiveDataProfileParserTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

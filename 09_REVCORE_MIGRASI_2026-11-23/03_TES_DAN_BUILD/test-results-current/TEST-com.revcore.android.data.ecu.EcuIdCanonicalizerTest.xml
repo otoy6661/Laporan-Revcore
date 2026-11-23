@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.data.ecu.EcuIdCanonicalizerTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:41.197Z" hostname="DESKTOP-H3S4UH2" time="0.034">
+  <properties/>
+  <testcase name="sixByteDatabaseFormatIsSupported" classname="com.revcore.android.data.ecu.EcuIdCanonicalizerTest" time="0.011"/>
+  <testcase name="trailingBytesAreNeverDroppedOrShiftedIntoTheId" classname="com.revcore.android.data.ecu.EcuIdCanonicalizerTest" time="0.002"/>
+  <testcase name="asciiTextIsPreservedButNotForcedIntoAHexId" classname="com.revcore.android.data.ecu.EcuIdCanonicalizerTest" time="0.002"/>
+  <testcase name="prefixedPayloadsForEveryFormatMatchExactly" classname="com.revcore.android.data.ecu.EcuIdCanonicalizerTest" time="0.007"/>
+  <testcase name="capturedFrameFromCodecProducesN02" classname="com.revcore.android.data.ecu.EcuIdCanonicalizerTest" time="0.001"/>
+  <testcase name="truncatedPayloadDoesNotBecomeACanonicalId" classname="com.revcore.android.data.ecu.EcuIdCanonicalizerTest" time="0.001"/>
+  <testcase name="everyRepresentedDatabaseIdFormatMatchesExactly" classname="com.revcore.android.data.ecu.EcuIdCanonicalizerTest" time="0.003"/>
+  <testcase name="capturedBeatFrameUsesSelectorPrefixAndCompleteField" classname="com.revcore.android.data.ecu.EcuIdCanonicalizerTest" time="0.001"/>
+  <testcase name="unknownButWellFormedIdStaysUnknownWithoutFalseMatch" classname="com.revcore.android.data.ecu.EcuIdCanonicalizerTest" time="0.001"/>
+  <testcase name="rawStringVariantsCanonicalizeToN01N02N03" classname="com.revcore.android.data.ecu.EcuIdCanonicalizerTest" time="0.001"/>
+  <testcase name="capturedBeatFrameWithoutLayoutStillSelectsTrailingCompleteField" classname="com.revcore.android.data.ecu.EcuIdCanonicalizerTest" time="0.001"/>
+  <testcase name="asciiHexPayloadIsCanonicalized" classname="com.revcore.android.data.ecu.EcuIdCanonicalizerTest" time="0.0"/>
+  <testcase name="malformedHexAndMissingPayloadAreRejected" classname="com.revcore.android.data.ecu.EcuIdCanonicalizerTest" time="0.0"/>
+  <testcase name="truncatedSixByteCandidateDoesNotMatchWithoutExactDatabaseEntry" classname="com.revcore.android.data.ecu.EcuIdCanonicalizerTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

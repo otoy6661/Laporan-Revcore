@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.data.maps.MapParserEditorTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:43.744Z" hostname="DESKTOP-H3S4UH2" time="0.184">
+  <properties/>
+  <testcase name="validN03ImageIsVerifiedOfflineButNeverFlashable" classname="com.revcore.android.data.maps.MapParserEditorTest" time="0.028"/>
+  <testcase name="editingUsesWorkingCopyOnlyAndReparses" classname="com.revcore.android.data.maps.MapParserEditorTest" time="0.055"/>
+  <testcase name="malformedDefinitionsAreUnknownNotZeroFilled" classname="com.revcore.android.data.maps.MapParserEditorTest" time="0.0"/>
+  <testcase name="overlapDetectionAllowsSwitchBitsButFlagsSharedBytes" classname="com.revcore.android.data.maps.MapParserEditorTest" time="0.001"/>
+  <testcase name="undoRedoRestoresAcceptedEditsAndClearsOnReset" classname="com.revcore.android.data.maps.MapParserEditorTest" time="0.04"/>
+  <testcase name="definitionOrderAndLimiterStrideAreReproduced" classname="com.revcore.android.data.maps.MapParserEditorTest" time="0.005"/>
+  <testcase name="rejectedEditsLeaveWorkingCopyUntouched" classname="com.revcore.android.data.maps.MapParserEditorTest" time="0.017"/>
+  <testcase name="roundTripOfEveryDefinedSectionKeepsByteRangesInsideImage" classname="com.revcore.android.data.maps.MapParserEditorTest" time="0.011"/>
+  <testcase name="parsedTablesUseAbsoluteOffsetsAndExactDecoding" classname="com.revcore.android.data.maps.MapParserEditorTest" time="0.007"/>
+  <testcase name="ignitionEditQuantizesAndReportsTheResult" classname="com.revcore.android.data.maps.MapParserEditorTest" time="0.017"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.core.protocol.HondaIdentifierParserTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:40.635Z" hostname="DESKTOP-H3S4UH2" time="0.008">
+  <properties/>
+  <testcase name="asciiPayloadIsPreservedVerbatim" classname="com.revcore.android.core.protocol.HondaIdentifierParserTest" time="0.005"/>
+  <testcase name="negativeResponseIsRejected" classname="com.revcore.android.core.protocol.HondaIdentifierParserTest" time="0.0"/>
+  <testcase name="allZeroOrAllFfPayloadIsRejected" classname="com.revcore.android.core.protocol.HondaIdentifierParserTest" time="0.0"/>
+  <testcase name="emptyPayloadIsRejected" classname="com.revcore.android.core.protocol.HondaIdentifierParserTest" time="0.0"/>
+  <testcase name="fiveByteBinaryPayloadIsNotTruncated" classname="com.revcore.android.core.protocol.HondaIdentifierParserTest" time="0.002"/>
+  <testcase name="corruptChecksumIsRejected" classname="com.revcore.android.core.protocol.HondaIdentifierParserTest" time="0.0"/>
+  <testcase name="longerPayloadKeepsEveryByte" classname="com.revcore.android.core.protocol.HondaIdentifierParserTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

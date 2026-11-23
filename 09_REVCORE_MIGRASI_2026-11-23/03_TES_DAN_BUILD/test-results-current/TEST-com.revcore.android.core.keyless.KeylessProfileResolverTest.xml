@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.core.keyless.KeylessProfileResolverTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:40.014Z" hostname="DESKTOP-H3S4UH2" time="0.081">
+  <properties/>
+  <testcase name="unverified model is rejected because its part number is an ecm id" classname="com.revcore.android.core.keyless.KeylessProfileResolverTest" time="0.009"/>
+  <testcase name="identical duplicate firmware rows collapse to one profile" classname="com.revcore.android.core.keyless.KeylessProfileResolverTest" time="0.044"/>
+  <testcase name="same part number with different eeprom layout is ambiguous" classname="com.revcore.android.core.keyless.KeylessProfileResolverTest" time="0.004"/>
+  <testcase name="shared profile for partial identity is selected with a caveat" classname="com.revcore.android.core.keyless.KeylessProfileResolverTest" time="0.006"/>
+  <testcase name="untagged firmware row never matches by variant" classname="com.revcore.android.core.keyless.KeylessProfileResolverTest" time="0.007"/>
+  <testcase name="country tagged firmware record matches a variant part number" classname="com.revcore.android.core.keyless.KeylessProfileResolverTest" time="0.004"/>
+  <testcase name="two different profiles for the candidates are ambiguous" classname="com.revcore.android.core.keyless.KeylessProfileResolverTest" time="0.002"/>
+  <testcase name="country tag is stripped only from the firmware record" classname="com.revcore.android.core.keyless.KeylessProfileResolverTest" time="0.001"/>
+  <testcase name="vehicle outside the keyless table stops without a profile" classname="com.revcore.android.core.keyless.KeylessProfileResolverTest" time="0.002"/>
+  <testcase name="no identified ecu produces Unidentified" classname="com.revcore.android.core.keyless.KeylessProfileResolverTest" time="0.001"/>
+  <testcase name="exact part number selects the single matching profile" classname="com.revcore.android.core.keyless.KeylessProfileResolverTest" time="0.001"/>
+  <testcase name="part number normalization ignores separators and case" classname="com.revcore.android.core.keyless.KeylessProfileResolverTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

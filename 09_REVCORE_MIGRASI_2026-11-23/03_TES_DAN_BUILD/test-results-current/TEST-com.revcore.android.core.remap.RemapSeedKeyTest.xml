@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.core.remap.RemapSeedKeyTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:40.895Z" hostname="DESKTOP-H3S4UH2" time="0.002">
+  <properties/>
+  <testcase name="writeKeyIsNullWithoutSignatureOrMarker" classname="com.revcore.android.core.remap.RemapSeedKeyTest" time="0.0"/>
+  <testcase name="recoveryKeyUsesSixBytesBeforeItsSignature" classname="com.revcore.android.core.remap.RemapSeedKeyTest" time="0.001"/>
+  <testcase name="recoveryKeyIsNullWithoutSignature" classname="com.revcore.android.core.remap.RemapSeedKeyTest" time="0.0"/>
+  <testcase name="argMatchesReferenceForZeroNibbles" classname="com.revcore.android.core.remap.RemapSeedKeyTest" time="0.0"/>
+  <testcase name="writeKeyUsesTableEntryMarkedByEe00" classname="com.revcore.android.core.remap.RemapSeedKeyTest" time="0.0"/>
+  <testcase name="ar6SwapsTheReconstructedNibbles" classname="com.revcore.android.core.remap.RemapSeedKeyTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

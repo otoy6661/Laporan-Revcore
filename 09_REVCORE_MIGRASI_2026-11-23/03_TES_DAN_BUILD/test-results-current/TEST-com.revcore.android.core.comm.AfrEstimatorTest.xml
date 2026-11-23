@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.core.comm.AfrEstimatorTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:39.510Z" hostname="DESKTOP-H3S4UH2" time="0.043">
+  <properties/>
+  <testcase name="labelIsTheOwnerRequiredName" classname="com.revcore.android.core.comm.AfrEstimatorTest" time="0.005"/>
+  <testcase name="missingVoltageIsUnavailableNotANumber" classname="com.revcore.android.core.comm.AfrEstimatorTest" time="0.001"/>
+  <testcase name="nonNumericVoltageIsRejected" classname="com.revcore.android.core.comm.AfrEstimatorTest" time="0.0"/>
+  <testcase name="estimateUsesTheReferenceFormula" classname="com.revcore.android.core.comm.AfrEstimatorTest" time="0.0"/>
+  <testcase name="nonValidStateIsUnavailable" classname="com.revcore.android.core.comm.AfrEstimatorTest" time="0.022"/>
+  <testcase name="outOfNarrowbandRangeIsRejected" classname="com.revcore.android.core.comm.AfrEstimatorTest" time="0.003"/>
+  <testcase name="staleValueIsAllowedButNotCurrent" classname="com.revcore.android.core.comm.AfrEstimatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

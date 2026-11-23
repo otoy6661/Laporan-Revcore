@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.core.comm.EcuSessionManagerTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:39.603Z" hostname="DESKTOP-H3S4UH2" time="0.285">
+  <properties/>
+  <testcase name="repeatedFailures_raiseSuspectedLossOnlyWhileOperational" classname="com.revcore.android.core.comm.EcuSessionManagerTest" time="0.248"/>
+  <testcase name="lifecycle_movesFromAdapterOpenToReady" classname="com.revcore.android.core.comm.EcuSessionManagerTest" time="0.012"/>
+  <testcase name="detach_resetsFamilyAndLifecycle" classname="com.revcore.android.core.comm.EcuSessionManagerTest" time="0.008"/>
+  <testcase name="keihinHeader_resolvesFamilyAsHypothesis" classname="com.revcore.android.core.comm.EcuSessionManagerTest" time="0.005"/>
+  <testcase name="baselineHeader_doesNotClaimAFamily" classname="com.revcore.android.core.comm.EcuSessionManagerTest" time="0.005"/>
+  <testcase name="shindengenHeader_resolvesDistinctFamily" classname="com.revcore.android.core.comm.EcuSessionManagerTest" time="0.003"/>
+  <testcase name="closedSession_refusesTransactionWithoutWriting" classname="com.revcore.android.core.comm.EcuSessionManagerTest" time="0.002"/>
+  <testcase name="expectedTransportMismatch_isRefused" classname="com.revcore.android.core.comm.EcuSessionManagerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

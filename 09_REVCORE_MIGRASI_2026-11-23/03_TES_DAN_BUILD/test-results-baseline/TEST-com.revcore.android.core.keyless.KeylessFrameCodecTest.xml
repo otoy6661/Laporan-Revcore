@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.core.keyless.KeylessFrameCodecTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-11-21T23:27:54.335Z" hostname="DESKTOP-H3S4UH2" time="0.064">
+  <properties/>
+  <testcase name="firmware table has all 27 records with unique ids" classname="com.revcore.android.core.keyless.KeylessFrameCodecTest" time="0.027"/>
+  <testcase name="catalog carries the exact firmware part numbers and offsets" classname="com.revcore.android.core.keyless.KeylessFrameCodecTest" time="0.006"/>
+  <testcase name="data bytes use the reference positions and per-family minimum size" classname="com.revcore.android.core.keyless.KeylessFrameCodecTest" time="0.003"/>
+  <testcase name="keihin read frame matches reference for address 0 and 1" classname="com.revcore.android.core.keyless.KeylessFrameCodecTest" time="0.008"/>
+  <testcase name="model offsets map to the reference addresses" classname="com.revcore.android.core.keyless.KeylessFrameCodecTest" time="0.001"/>
+  <testcase name="echo detection requires the request at the head of the reply" classname="com.revcore.android.core.keyless.KeylessFrameCodecTest" time="0.0"/>
+  <testcase name="security frames match the reference bytes" classname="com.revcore.android.core.keyless.KeylessFrameCodecTest" time="0.007"/>
+  <testcase name="short reply is not read" classname="com.revcore.android.core.keyless.KeylessFrameCodecTest" time="0.005"/>
+  <testcase name="vendor probe frames match the firmware reconstruction" classname="com.revcore.android.core.keyless.KeylessFrameCodecTest" time="0.001"/>
+  <testcase name="only the four SCOOPY records use the Keihin wire family and mode 1" classname="com.revcore.android.core.keyless.KeylessFrameCodecTest" time="0.001"/>
+  <testcase name="every catalog entry is even-offset and analysed" classname="com.revcore.android.core.keyless.KeylessFrameCodecTest" time="0.002"/>
+  <testcase name="init frames match the reference bytes" classname="com.revcore.android.core.keyless.KeylessFrameCodecTest" time="0.0"/>
+  <testcase name="shindengen read frame checksum covers only 07 40 and address" classname="com.revcore.android.core.keyless.KeylessFrameCodecTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

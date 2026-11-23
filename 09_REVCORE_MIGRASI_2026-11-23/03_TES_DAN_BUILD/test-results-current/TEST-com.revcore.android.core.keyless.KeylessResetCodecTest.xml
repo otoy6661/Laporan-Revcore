@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.core.keyless.KeylessResetCodecTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:40.369Z" hostname="DESKTOP-H3S4UH2" time="0.01">
+  <properties/>
+  <testcase name="verifyRangesMatchFirmwareTargets" classname="com.revcore.android.core.keyless.KeylessResetCodecTest" time="0.004"/>
+  <testcase name="keihinEvenIndexSendsZeroLowAndKeepsOriginalHigh" classname="com.revcore.android.core.keyless.KeylessResetCodecTest" time="0.002"/>
+  <testcase name="acknowledgementRules" classname="com.revcore.android.core.keyless.KeylessResetCodecTest" time="0.0"/>
+  <testcase name="keihinFrames_coverImageBytes0x46To0x49AcrossPages0x23And0x24" classname="com.revcore.android.core.keyless.KeylessResetCodecTest" time="0.002"/>
+  <testcase name="keihinOddIndexKeepsOriginalLowAndSendsZeroHigh" classname="com.revcore.android.core.keyless.KeylessResetCodecTest" time="0.0"/>
+  <testcase name="keihinFrames_refuseWhenKeyAreaWasNotRead" classname="com.revcore.android.core.keyless.KeylessResetCodecTest" time="0.001"/>
+  <testcase name="keihinFrameArrayIsEightBytes" classname="com.revcore.android.core.keyless.KeylessResetCodecTest" time="0.0"/>
+  <testcase name="shindengenFrames_coverAll176AddressesAndUseReducedChecksum" classname="com.revcore.android.core.keyless.KeylessResetCodecTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

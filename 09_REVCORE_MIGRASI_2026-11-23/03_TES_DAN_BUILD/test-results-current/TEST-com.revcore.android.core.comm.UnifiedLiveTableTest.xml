@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.core.comm.UnifiedLiveTableTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:39.982Z" hostname="DESKTOP-H3S4UH2" time="0.006">
+  <properties/>
+  <testcase name="emptyTelemetryProducesNoRows" classname="com.revcore.android.core.comm.UnifiedLiveTableTest" time="0.001"/>
+  <testcase name="actuatorRowsArePartOfTheSameTable" classname="com.revcore.android.core.comm.UnifiedLiveTableTest" time="0.002"/>
+  <testcase name="validValueIsShownWithItsSourceTableAndOffset" classname="com.revcore.android.core.comm.UnifiedLiveTableTest" time="0.0"/>
+  <testcase name="everyCatalogSensorAppearsAtMostOnce" classname="com.revcore.android.core.comm.UnifiedLiveTableTest" time="0.001"/>
+  <testcase name="rejectedParameterNeverGetsAValue" classname="com.revcore.android.core.comm.UnifiedLiveTableTest" time="0.001"/>
+  <testcase name="sensorOutsideTheCatalogIsNotDropped" classname="com.revcore.android.core.comm.UnifiedLiveTableTest" time="0.0"/>
+  <testcase name="catalogSensorThatWasNeverReceivedIsNotListed" classname="com.revcore.android.core.comm.UnifiedLiveTableTest" time="0.001"/>
+  <testcase name="staleValueKeepsItsAgeInsteadOfLookingCurrent" classname="com.revcore.android.core.comm.UnifiedLiveTableTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.data.maps.OriginalMapArchiveAnalysisTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:43.930Z" hostname="DESKTOP-H3S4UH2" time="1.256">
+  <properties/>
+  <testcase name="generateManifestAndAnalyzeAllOriginalMaps" classname="com.revcore.android.data.maps.OriginalMapArchiveAnalysisTest" time="1.256"/>
+  <system-out><![CDATA[original maps: 162, ready=159, ambiguous=2, unrecognized=1
+decrypt failures: 0
+validation: {VERIFIED_COMPATIBLE_FOR_OFFLINE_PROFILE=79, PROFILE_MATCH_ONLY=67, INCOMPATIBLE=13}
+manifest: C:\Users\Lord Otoy\Documents\Qoder\work\REVCORE_KEYLESS_20261120\RevCore_work_live_keyless_20261120\build\original_maps\manifest.tsv
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

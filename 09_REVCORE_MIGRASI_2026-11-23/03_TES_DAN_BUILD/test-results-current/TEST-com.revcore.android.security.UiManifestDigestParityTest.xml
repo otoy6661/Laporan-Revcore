@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.security.UiManifestDigestParityTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:47.591Z" hostname="DESKTOP-H3S4UH2" time="0.001">
+  <properties/>
+  <testcase name="structureDigestMatchesBuildScriptReference" classname="com.revcore.android.security.UiManifestDigestParityTest" time="0.001"/>
+  <testcase name="entriesDigestMatchesBuildScriptReference" classname="com.revcore.android.security.UiManifestDigestParityTest" time="0.0"/>
+  <testcase name="digestIsIndependentOfInputOrderButNotOfContent" classname="com.revcore.android.security.UiManifestDigestParityTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

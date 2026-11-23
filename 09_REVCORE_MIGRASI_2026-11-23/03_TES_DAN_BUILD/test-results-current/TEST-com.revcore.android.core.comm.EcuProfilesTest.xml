@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.core.comm.EcuProfilesTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:39.558Z" hostname="DESKTOP-H3S4UH2" time="0.037">
+  <properties/>
+  <testcase name="canonicalFramesHaveValidChecksums" classname="com.revcore.android.core.comm.EcuProfilesTest" time="0.017"/>
+  <testcase name="evidenceInventory_preservesAllStatusesIncludingUnresolved" classname="com.revcore.android.core.comm.EcuProfilesTest" time="0.002"/>
+  <testcase name="familyRouting_preservesProfilesAndFallsBackToBaselineOnlyWhenUnknown" classname="com.revcore.android.core.comm.EcuProfilesTest" time="0.001"/>
+  <testcase name="requestShortTags_matchBaselineLogLabels" classname="com.revcore.android.core.comm.EcuProfilesTest" time="0.014"/>
+  <testcase name="familiesRemainDistinct" classname="com.revcore.android.core.comm.EcuProfilesTest" time="0.0"/>
+  <testcase name="shindengenProfile_doesNotBorrowKeihinOrBaselineFrames" classname="com.revcore.android.core.comm.EcuProfilesTest" time="0.0"/>
+  <testcase name="genericBaseline_carriesTheRestoredCatalog" classname="com.revcore.android.core.comm.EcuProfilesTest" time="0.002"/>
+  <testcase name="liveTableFramesAreFiveBytesInProvenProbeOrder" classname="com.revcore.android.core.comm.EcuProfilesTest" time="0.001"/>
+  <testcase name="keihinProfiles_doNotInventFrames" classname="com.revcore.android.core.comm.EcuProfilesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -2,6 +2,29 @@
 
 Semua perubahan laporan pada repository ini. Format mengikuti Keep a Changelog secara ringkas; tanggal dalam ISO 8601.
 
+## [RevCore Migration & Verification] — 2026-11-23
+
+Perintah pemilik: unggah laporan migrasi, rebuild, tes, dan verifikasi ke folder
+tanggal. Cakupan yang dikecualikan: Gate 10 (`04_GATE10_SECURITY`) dan inventaris
+kunci privat (`05_PRIVATE_KEY_INVENTORY`), termasuk skrip/laporan bertema Gate 10.
+
+### Added
+- `09_REVCORE_MIGRASI_2026-11-23/` — 133 file: README indeks, verifikasi kesesuaian
+  work order, riwayat proyek, arsitektur/fitur, laporan build/signing/tes, log build,
+  hasil JUnit baseline/current, masalah terbuka, indeks riset, manifest migrasi,
+  dan catatan Git.
+- `09_REVCORE_MIGRASI_2026-11-23/VERIFIKASI_KESESUAIAN_WO_2026-11-23.md` — verifikasi
+  baca-saja per pasal A–J, termasuk tiga gap (D1, D3, C1) dan satu dokumen kedaluwarsa (C4).
+
+### Changed
+- `README.md` — tabel isi dan tautan folder 2026-11-23.
+- `PUBLICATION_MANIFEST.csv` — entri hash untuk file baru.
+
+### Security
+- Salinan laporan disanitasi: nama/alias/lokasi kunci signing, nama berkas trust
+  record, dan nama env var kata sandi diganti penanda "tidak dipublikasikan".
+- Tidak ada kata sandi, isi kunci, atau materi rahasia di file baru.
+
 ## [RevCore Full Reference Audit] — 2026-11-20
 
 Work order: `REVCORE FULL REFERENCE AUTOPSY & FTDI K-LINE COMPATIBILITY AUDIT`.

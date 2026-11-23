@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.core.keyless.KeylessReadEngineTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:40.098Z" hostname="DESKTOP-H3S4UH2" time="0.258">
+  <properties/>
+  <testcase name="pureEchoReplies_areEchoOnly" classname="com.revcore.android.core.keyless.KeylessReadEngineTest" time="0.024"/>
+  <testcase name="modelFallbackGrantThenSilentAddresses_isTimeout" classname="com.revcore.android.core.keyless.KeylessReadEngineTest" time="0.151"/>
+  <testcase name="modelFallbackGrantThenFullReads_producesIdAndCounts" classname="com.revcore.android.core.keyless.KeylessReadEngineTest" time="0.048"/>
+  <testcase name="silence_isNoResponse" classname="com.revcore.android.core.keyless.KeylessReadEngineTest" time="0.011"/>
+  <testcase name="thirteenByteShindengenKeyReply_isShortResponseNotSecurityRejected" classname="com.revcore.android.core.keyless.KeylessReadEngineTest" time="0.012"/>
+  <testcase name="keihinProfileAgainstShindengenAnswers_isProfileMismatch" classname="com.revcore.android.core.keyless.KeylessReadEngineTest" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

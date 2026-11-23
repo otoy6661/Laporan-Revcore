@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.data.ecu.EcmIdentityMatcherTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:40.960Z" hostname="DESKTOP-H3S4UH2" time="0.002">
+  <properties/>
+  <testcase name="eightCharResponseMatchesTenCharDatabaseId" classname="com.revcore.android.data.ecu.EcmIdentityMatcherTest" time="0.0"/>
+  <testcase name="rejectsEmptyValues" classname="com.revcore.android.data.ecu.EcmIdentityMatcherTest" time="0.0"/>
+  <testcase name="leadingZeroDifferenceIsOnlyABoundedPartialRelation" classname="com.revcore.android.data.ecu.EcmIdentityMatcherTest" time="0.001"/>
+  <testcase name="exactEcmIdMatches" classname="com.revcore.android.data.ecu.EcmIdentityMatcherTest" time="0.0"/>
+  <testcase name="partNumberRequiresExactNormalizedMatch" classname="com.revcore.android.data.ecu.EcmIdentityMatcherTest" time="0.0"/>
+  <testcase name="rejectsLooseSubstringMatch" classname="com.revcore.android.data.ecu.EcmIdentityMatcherTest" time="0.0"/>
+  <testcase name="canonicalEcmIdNeverStripsLeadingZeroes" classname="com.revcore.android.data.ecu.EcmIdentityMatcherTest" time="0.0"/>
+  <testcase name="normalizeStripsSeparatorsAndCase" classname="com.revcore.android.data.ecu.EcmIdentityMatcherTest" time="0.0"/>
+  <testcase name="unverifiedModelDefaultsDoNotFabricateCalibration" classname="com.revcore.android.data.ecu.EcmIdentityMatcherTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

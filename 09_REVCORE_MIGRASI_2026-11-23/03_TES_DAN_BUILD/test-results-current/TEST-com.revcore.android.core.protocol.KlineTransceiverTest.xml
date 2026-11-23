@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.core.protocol.KlineTransceiverTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:40.647Z" hostname="DESKTOP-H3S4UH2" time="0.107">
+  <properties/>
+  <testcase name="timeoutRetry_incrementsRetryCounter" classname="com.revcore.android.core.protocol.KlineTransceiverTest" time="0.018"/>
+  <testcase name="exportAsText_containsEvidenceSessionSummary" classname="com.revcore.android.core.protocol.KlineTransceiverTest" time="0.011"/>
+  <testcase name="partialEcho_isNotAcceptedAsResponse" classname="com.revcore.android.core.protocol.KlineTransceiverTest" time="0.006"/>
+  <testcase name="fullEchoFollowedByRealResponse_keepsTheRealResponse" classname="com.revcore.android.core.protocol.KlineTransceiverTest" time="0.01"/>
+  <testcase name="fullEcho_isRejectedAndReportedAsEchoOnly" classname="com.revcore.android.core.protocol.KlineTransceiverTest" time="0.011"/>
+  <testcase name="badChecksum_isRejectedWithChecksumReason" classname="com.revcore.android.core.protocol.KlineTransceiverTest" time="0.009"/>
+  <testcase name="noBytes_isReportedAsTimeout" classname="com.revcore.android.core.protocol.KlineTransceiverTest" time="0.004"/>
+  <testcase name="delayedEchoFromPreviousRetry_isSkippedAndRealResponseAccepted" classname="com.revcore.android.core.protocol.KlineTransceiverTest" time="0.006"/>
+  <testcase name="rawTxAndRxEvents_areLoggedInProtocolOrder" classname="com.revcore.android.core.protocol.KlineTransceiverTest" time="0.006"/>
+  <testcase name="fragmentedResponse_isAssembledAndAccepted" classname="com.revcore.android.core.protocol.KlineTransceiverTest" time="0.004"/>
+  <testcase name="incompleteCandidateBeforeValidFrame_doesNotAbortScan" classname="com.revcore.android.core.protocol.KlineTransceiverTest" time="0.005"/>
+  <testcase name="noiseBeforeValidFrame_isSkippedAndFrameAccepted" classname="com.revcore.android.core.protocol.KlineTransceiverTest" time="0.006"/>
+  <testcase name="validEcuResponse_isAccepted" classname="com.revcore.android.core.protocol.KlineTransceiverTest" time="0.004"/>
+  <testcase name="negativeResponse_isValidFrameButMarkedNegative" classname="com.revcore.android.core.protocol.KlineTransceiverTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

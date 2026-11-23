@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.core.comm.HondaFrameCodecTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-11-21T23:27:54.107Z" hostname="DESKTOP-H3S4UH2" time="0.01">
+  <properties/>
+  <testcase name="frameLimit_is254Bytes" classname="com.revcore.android.core.comm.HondaFrameCodecTest" time="0.002"/>
+  <testcase name="corruptedChecksum_isRejected" classname="com.revcore.android.core.comm.HondaFrameCodecTest" time="0.001"/>
+  <testcase name="negativeResponse_isDetected" classname="com.revcore.android.core.comm.HondaFrameCodecTest" time="0.001"/>
+  <testcase name="headEcho_isStripped_onlyAtHead" classname="com.revcore.android.core.comm.HondaFrameCodecTest" time="0.001"/>
+  <testcase name="mismatchedDeclaredLength_isRejected" classname="com.revcore.android.core.comm.HondaFrameCodecTest" time="0.001"/>
+  <testcase name="builtFrames_passTheirOwnValidation" classname="com.revcore.android.core.comm.HondaFrameCodecTest" time="0.0"/>
+  <testcase name="leadingZeroPaddingIsSkippedBeforeEcho" classname="com.revcore.android.core.comm.HondaFrameCodecTest" time="0.001"/>
+  <testcase name="buildBaseline_matchesKnownFrameAndChecksum" classname="com.revcore.android.core.comm.HondaFrameCodecTest" time="0.0"/>
+  <testcase name="payload_excludesHeaderLengthServiceAndChecksum" classname="com.revcore.android.core.comm.HondaFrameCodecTest" time="0.0"/>
+  <testcase name="unknownHeader_isRejectedUnlessAllowed" classname="com.revcore.android.core.comm.HondaFrameCodecTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

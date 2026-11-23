@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.data.maps.MapCodecTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:43.704Z" hostname="DESKTOP-H3S4UH2" time="0.008">
+  <properties/>
+  <testcase name="proportionClampsAndHandlesDegenerateRange" classname="com.revcore.android.data.maps.MapCodecTest" time="0.0"/>
+  <testcase name="encodeUsesFlashProInversesButRejectsUnrepresentableValues" classname="com.revcore.android.data.maps.MapCodecTest" time="0.005"/>
+  <testcase name="zeroConversionFactorFallsBackToOne" classname="com.revcore.android.data.maps.MapCodecTest" time="0.0"/>
+  <testcase name="decodeFormulasMatchReport04" classname="com.revcore.android.data.maps.MapCodecTest" time="0.0"/>
+  <testcase name="formatValueReproducesFlashProExactly" classname="com.revcore.android.data.maps.MapCodecTest" time="0.0"/>
+  <testcase name="heatMapStopsAndInterpolationMatchReport05" classname="com.revcore.android.data.maps.MapCodecTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.ui.tuning.TuningStateTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-11-21T23:28:06.796Z" hostname="DESKTOP-H3S4UH2" time="0.069">
+  <properties/>
+  <testcase name="identityResolutionCandidatesCanWidenMapCandidatesWithoutSelectingOne" classname="com.revcore.android.ui.tuning.TuningStateTest" time="0.004"/>
+  <testcase name="panelIsDisconnectedAndDropsStaleIdentityWithoutAdapter" classname="com.revcore.android.ui.tuning.TuningStateTest" time="0.002"/>
+  <testcase name="realN03MapGroupsEverySection" classname="com.revcore.android.ui.tuning.TuningStateTest" time="0.06"/>
+  <testcase name="panelSeparatesConnectedLinkFromIdentifiedEcu" classname="com.revcore.android.ui.tuning.TuningStateTest" time="0.001"/>
+  <testcase name="categoriesComeFromRealSectionIdsAndTypes" classname="com.revcore.android.ui.tuning.TuningStateTest" time="0.0"/>
+  <testcase name="identifiedPanelUsesOnlyEcuAndMatchedDatabaseFields" classname="com.revcore.android.ui.tuning.TuningStateTest" time="0.0"/>
+  <testcase name="customImportPrefersUniqueEcuProfileThenFallsBackToFileName" classname="com.revcore.android.ui.tuning.TuningStateTest" time="0.002"/>
+  <testcase name="candidatesRequireExactEcmIdAndReadyStatus" classname="com.revcore.android.ui.tuning.TuningStateTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

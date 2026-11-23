@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.revcore.android.core.comm.KlineWireEngineTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-11-22T14:47:39.899Z" hostname="DESKTOP-H3S4UH2" time="0.041">
+  <properties/>
+  <testcase name="corruptedChecksum_isRejected" classname="com.revcore.android.core.comm.KlineWireEngineTest" time="0.01"/>
+  <testcase name="echoOnly_isRejected" classname="com.revcore.android.core.comm.KlineWireEngineTest" time="0.004"/>
+  <testcase name="echoPrefixedResponse_keepsRealResponse" classname="com.revcore.android.core.comm.KlineWireEngineTest" time="0.005"/>
+  <testcase name="validResponse_isAccepted" classname="com.revcore.android.core.comm.KlineWireEngineTest" time="0.005"/>
+  <testcase name="noBytes_isReportedAsTimeout" classname="com.revcore.android.core.comm.KlineWireEngineTest" time="0.003"/>
+  <testcase name="delayedEchoFromFirstAttempt_isSkippedOnRetry" classname="com.revcore.android.core.comm.KlineWireEngineTest" time="0.005"/>
+  <testcase name="fragmentedResponse_isAssembled" classname="com.revcore.android.core.comm.KlineWireEngineTest" time="0.004"/>
+  <testcase name="retryCount_isReportedForTimeout" classname="com.revcore.android.core.comm.KlineWireEngineTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
