@@ -1,0 +1,5 @@
+RevCore 231126 unit test recap
+command: gradle.bat :app:testDebugUnitTest --offline --console=plain
+result: BUILD SUCCESSFUL (26 tasks executed)
+tests=460 skipped=0 failures=0 errors=0
+suites=55

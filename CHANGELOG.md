@@ -2,6 +2,30 @@
 
 Semua perubahan laporan pada repository ini. Format mengikuti Keep a Changelog secara ringkas; tanggal dalam ISO 8601.
 
+## [RevCore Master Work Order Execution] — 2026-11-23
+
+Laporan pelaksanaan Master Work Order penuh (audit source, koreksi UI, implementasi
+protokol, build APK Release resmi). Bukan laporan migrasi; arsip migrasi `09_*`
+tidak diubah dan tidak dihapus.
+
+### Added
+- `10_REVCORE_PELAKSANAAN_2026-11-23/` — laporan pelaksanaan 24 bagian + tabel
+  status 17 baris, README indeks, dan bukti (`BUKTI/`): matriks bukti protokol,
+  rekap unit test (460 test, 55 suite, 0 gagal/error), status marker build,
+  SHA-256 APK, hasil `apksigner verify`, `aapt2 badging`, inventaris aset APK.
+
+### Changed
+- `README.md` — tabel isi dan bagian tautan laporan pelaksanaan 2026-11-23.
+
+### Notes
+- APK Release resmi: `RevCore build 231126.apk`, 39.841.086 byte, SHA-256
+  `2b4122aa18986417bf34b9b37887dfa391058262d3c2775c655d1cae64647ae9`,
+  sertifikat `c649cb4f…18d098` (sama dengan Build 221126). APK tidak diunggah ke
+  repository laporan.
+- Tidak ada laporan lama yang dihapus: tidak ada laporan UI/implementasi lama di
+  repository ini yang secara langsung digantikan; audit dan migrasi historis
+  dipertahankan.
+
 ## [RevCore Migration & Verification] — 2026-11-23
 
 Perintah pemilik: unggah laporan migrasi, rebuild, tes, dan verifikasi ke folder
