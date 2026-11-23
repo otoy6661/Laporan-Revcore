@@ -18,19 +18,24 @@ Laporan pelaksanaan Work Order UI Refinement. Titik awal: Build 231126 (SHA-256 
 | `BUKTI/video-decode-notes.txt` | Cara dekode lampiran video (ffmpeg 9.0.2 via `imageio-ffmpeg`) + isi video |
 | `BUKTI/video-decode-sheet1.jpg`, `video-decode-sheet2.jpg` | Lembar kontak video (sampel tiap 4 detik) |
 | `BUKTI/video-decode-frame-000s.jpg`, `video-decode-frame-200s.jpg` | Bingkai awal dan akhir video |
+| `BUKTI/remap-unlock-2026-11-23.txt` | Pembukaan kunci status verifikasi + prasyarat teknis yang tetap berlaku |
 
 ## Ringkasan hasil
 
 - Package `com.revcore.android`, versionName `1.0`, versionCode `1` (tidak diubah).
-- APK: `RevCore build 231126.apk`, 39.841.086 byte,
-  SHA-256 `eb94f159fa32484b1923516acd4ef024e8283bd0c686bbd20af1133d623dedc9`.
+- APK terbaru: `RevCore build 231126.apk`, 39.841.086 byte,
+  SHA-256 `1a23ae8dbf028ef8abccd89d0c94122dc2abe751839b143247c5a5971de16128`
+  (build resmi ulang setelah pembukaan kunci status verifikasi).
 - Sertifikat resmi SHA-256
   `c649cb4fd7e67686a99c1df31936a489b89e62a877b8d6b358f64d027a18d098`,
   signature v2+v3, bukan debug build.
-- Build 231126 sebelumnya (`2b4122aa…`) diarsipkan di `dist/archive/RevCore build 231126_162833.apk`;
+- Build `eb94f159…` diarsipkan di `dist/archive/RevCore build 231126_190106.apk`;
+  build `2b4122aa…` diarsipkan di `dist/archive/RevCore build 231126_162833.apk`;
   tidak ada yang dihapus.
-- Unit test: 461 lulus, 0 gagal, 0 error.
+- Unit test: 461 lulus, 0 gagal, 0 error (termasuk tes guard yang diperbarui).
 - Gate 10 tidak diubah dan tetap berjalan sebagai pemeriksaan integritas aplikasi.
+- Kunci operasi berbasis status verifikasi database sudah dibuka; prasyarat teknis
+  (adapter, identitas ECU, ukuran/checksum, konfirmasi ketik) tetap berlaku.
 - Verifikasi UI dan durasi loading di perangkat fisik BELUM dilakukan; menunggu
   penilaian pemilik. Tidak ada operasi tulis ke ECU nyata dalam sesi ini.
 - Lampiran video sudah didekode: berisi UI remap FlashPro-style, tanpa segmen animasi

@@ -1,6 +1,3 @@
-R8 map: security Gson models kept by name (8 classes).
-Verifying APK signature and certificate...
-Certificate SHA-256 (record and pin this after first verified build): c649cb4fd7e67686a99c1df31936a489b89e62a877b8d6b358f64d027a18d098
 Checking that key material was not packaged...
 Verifying signed policy, asset inventory, and native libraries...
 Policy envelope: signature present (SHA256withRSA); package com.revcore.android; 165 assets, 3 protected; native libraries match.
@@ -13,12 +10,12 @@ WARNING: Restricted methods will be blocked in a future release unless native ac
 System.Management.Automation.RemoteException
 Verifying the re-signed APK and the injected UI/DEX manifest...
 UI/DEX manifest verified: 20 UI entries, 1 DEX entries, 7 compiled XML structures, signed SHA256withRSA.
-Previous build archived: C:\Users\Lord Otoy\Documents\Qoder\work\REVCORE_KEYLESS_20261120\RevCore_work_live_keyless_20261120\dist\archive\RevCore build 231126_162833.apk
+Previous build archived: C:\Users\Lord Otoy\Documents\Qoder\work\REVCORE_KEYLESS_20261120\RevCore_work_live_keyless_20261120\dist\archive\RevCore build 231126_190106.apk
 
 Official Release APK: C:\Users\Lord Otoy\Documents\Qoder\work\REVCORE_KEYLESS_20261120\RevCore_work_live_keyless_20261120\dist\RevCore build 231126.apk
 Checksum file: C:\Users\Lord Otoy\Documents\Qoder\work\REVCORE_KEYLESS_20261120\RevCore_work_live_keyless_20261120\dist\RevCore build 231126.sha256.txt
 Size: 39841086 bytes
-SHA-256: eb94f159fa32484b1923516acd4ef024e8283bd0c686bbd20af1133d623dedc9
+SHA-256: 1a23ae8dbf028ef8abccd89d0c94122dc2abe751839b143247c5a5971de16128
 Certificate SHA-256: c649cb4fd7e67686a99c1df31936a489b89e62a877b8d6b358f64d027a18d098
 Verification: v2 + v3 signature, not debuggable, package com.revcore.android
 UI/DEX manifest: signed, injected, hashes verified

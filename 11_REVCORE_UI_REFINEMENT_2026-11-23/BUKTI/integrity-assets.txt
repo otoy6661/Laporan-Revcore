@@ -1,2 +1,2 @@
     37410  1981-01-01 01:01   assets/integrity_policy.json
-    13338  2026-11-23 16:28   assets/ui_integrity_manifest.json
+    13338  2026-11-23 19:01   assets/ui_integrity_manifest.json

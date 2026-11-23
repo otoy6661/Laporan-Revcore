@@ -28,6 +28,15 @@ Laporan pelaksanaan. Titik awal: Build 231126 (SHA-256 `2b4122aa…`). Hasil: bu
 | `app/src/main/java/com/revcore/android/ui/screens/LiveDataScreen.kt` | `AfrEstimateCard` ringkas (`%.2f : 1`), kaveat teknis dihapus, import `Locale` ditambahkan. |
 | `app/src/test/java/com/revcore/android/ui/StartupTimingTest.kt` | Tes baru: jendela loading harus lebih lama dari jeda 2 detik dan terpisah darinya. |
 
+Tindak lanjut instruksi pemilik (status verifikasi bukan alasan mengunci fitur), source tambahan:
+
+| Berkas | Perubahan |
+|---|---|
+| `app/src/main/java/com/revcore/android/data/maps/RemapExecutionGuard.kt` | Penolakan `MODEL_NOT_REMAP_VERIFIED` dihapus; prasyarat teknis tetap (adapter, model teridentifikasi, vendor, ukuran, checksum, konfirmasi). |
+| `app/src/main/java/com/revcore/android/ui/MainViewModel.kt` | `setLimiterRpm`, `saveMapsToRom`, `analyzeRomBytes`, `checksumRangeKnown`, `expectedSize` tidak lagi memakai flag verifikasi; validasi teknis tetap. |
+| `app/src/main/java/com/revcore/android/ui/screens/TuningScreen.kt` | WRITE BIN aktif saat ROM dimuat; kartu peringatan menjadi "ECU BELUM TERIDENTIFIKASI"; Referensi RPM tampil berdasarkan ketersediaan data; teks alat ROM lama diperjelas. |
+| `app/src/test/java/com/revcore/android/data/maps/RemapExecutionGuardTest.kt` | Tes penolakan flag diganti tes izin untuk profil dengan data teknis lengkap. |
+
 Tidak ada perubahan: `applicationId`, `versionName` 1.0, `versionCode` 1, signing identity,
 kebijakan integritas Gate 10, maupun file di luar daftar di atas.
 
@@ -83,9 +92,29 @@ pada Poco X3 NFC (Android 12/MIUI 14). Tidak ada klaim penerimaan UI.
 
 - Nama: `RevCore build 231126.apk` (lokal di work tree `dist/`; tidak diunggah ke repo laporan)
 - Ukuran: 39.841.086 byte
-- SHA-256: `eb94f159fa32484b1923516acd4ef024e8283bd0c686bbd20af1133d623dedc9`
+- SHA-256: `1a23ae8dbf028ef8abccd89d0c94122dc2abe751839b143247c5a5971de16128`
 - Signing: resmi RevCore, v2+v3, bukan debug; sertifikat
   `c649cb4fd7e67686a99c1df31936a489b89e62a877b8d6b358f64d027a18d098`
-- APK Build 231126 lama (`2b4122aa…`) diarsipkan ke `dist/archive/RevCore build 231126_162833.apk`
+- Build sebelumnya `eb94f159…` diarsipkan ke `dist/archive/RevCore build 231126_190106.apk`
 
 Bukti: folder `BUKTI/`.
+
+## 8. Pembukaan kunci status verifikasi (tindak lanjut instruksi pemilik)
+
+Instruksi: validasi/verifikasi adalah hak pemilik sebagai penguji final; fitur yang sudah
+dipelajari dan diimplementasikan tidak boleh dikunci atas alasan status verifikasi.
+
+- Konteks: `ecm_database.json` berisi 489 record dan **semuanya** `isVerifiedRemap: false`,
+  sehingga guard lama menolak seluruh operasi remap/ROM untuk semua motor.
+- Perubahan: penolakan `MODEL_NOT_REMAP_VERIFIED` dihapus dari
+  `RemapExecutionGuard`; syarat edit lokal dan analisis BIN tidak lagi memakai flag;
+  tombol WRITE BIN aktif saat ROM dimuat; kartu "PROFIL REMAP BELUM SIAP" menjadi
+  "ECU BELUM TERIDENTIFIKASI"; Referensi RPM tampil bila record punya data limit.
+- Prasyarat yang tetap berlaku (teknis, bukan status verifikasi): adapter terhubung,
+  ECU teridentifikasi dari respons, keluarga ECU dipetakan Keihin/Shindengen, ukuran
+  flash diketahui dan cocok, checksum Keihin diketahui, serta konfirmasi ketik
+  `TULIS` (tulis) / `RESET` (maintenance). Alat ROM lama di bagian Advanced tetap
+  tidak memiliki tombol tulis/erase karena memang belum diimplementasikan.
+- Unit test ulang: 461 test, 0 gagal, 0 error. Build resmi ulang:
+  `SUCCESS 2026-11-23T19:01:08+07:00`, APK `1a23ae8d…` (lihat bagian 7).
+- Rincian bukti: `BUKTI/remap-unlock-2026-11-23.txt`.

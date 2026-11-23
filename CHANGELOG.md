@@ -2,6 +2,25 @@
 
 Semua perubahan laporan pada repository ini. Format mengikuti Keep a Changelog secara ringkas; tanggal dalam ISO 8601.
 
+## [RevCore Remap Lock Removal & Rebuild] — 2026-11-23
+
+Tindak lanjut instruksi pemilik: status verifikasi database tidak boleh mengunci fitur
+yang sudah diimplementasikan; pemilik adalah penguji final.
+
+### Changed
+- `11_REVCORE_UI_REFINEMENT_2026-11-23/` — laporan, README, dan bukti diperbarui:
+  pembukaan kunci `MODEL_NOT_REMAP_VERIFIED` (semua 489 record ber-flag false),
+  prasyarat teknis yang tetap berlaku, rekap unit test ulang (461/0/0), verifikasi APK
+  baru, dan bukti `BUKTI/remap-unlock-2026-11-23.txt`.
+- `README.md` — ringkasan SHA-256 APK diperbarui ke build resmi ulang.
+
+### Notes
+- APK resmi baru: `RevCore build 231126.apk`, 39.841.086 byte, SHA-256
+  `1a23ae8dbf028ef8abccd89d0c94122dc2abe751839b143247c5a5971de16128`,
+  sertifikat `c649cb4f…18d098`, v2+v3, bukan debug build.
+- Build `eb94f159…` diarsipkan di `dist/archive/RevCore build 231126_190106.apk`;
+  tidak ada laporan atau arsip yang dihapus.
+
 ## [RevCore UI Refinement & Official Signed Release] — 2026-11-23
 
 Laporan pelaksanaan Work Order UI Refinement (startup/loading, Keyless ID, Tuning

@@ -22,7 +22,7 @@ Laporan Tahap 1 dipertahankan utuh sebagai riwayat penelitian. Dokumen Tahap 2 m
 | `08_REVCORE_REFERENCE_AUDIT_2026-11-20/` | Laporan audit referensi penuh 2026-11-20 (H-Diag, FlashPro Keyless, FTDI K-Line, gap RevCore) |
 | `09_REVCORE_MIGRASI_2026-11-23/` | Laporan migrasi, rebuild, tes, verifikasi paket, dan verifikasi kesesuaian work order (Gate 10 & inventaris kunci dikecualikan) |
 | `10_REVCORE_PELAKSANAAN_2026-11-23/` | Laporan pelaksanaan Master Work Order: audit penuh, tujuh koreksi UI, implementasi protokol, build APK Release resmi 231126 |
-| `11_REVCORE_UI_REFINEMENT_2026-11-23/` | Laporan pelaksanaan Work Order UI Refinement: startup/loading, Keyless ID, struktur Tuning, Live Data/AFR/DTC, build resmi baru (SHA-256 `eb94f159…`) |
+| `11_REVCORE_UI_REFINEMENT_2026-11-23/` | Laporan pelaksanaan Work Order UI Refinement: startup/loading, Keyless ID, struktur Tuning, Live Data/AFR/DTC, pembukaan kunci status verifikasi, build resmi (SHA-256 `1a23ae8d…`) |
 
 ## Laporan teknis RevCore (2026-11-20)
 
@@ -72,12 +72,14 @@ Build 231126.
 ## Laporan UI Refinement & Official Signed Release (2026-11-23)
 
 Work order: `REVCORE UI REFINEMENT & OFFICIAL SIGNED RELEASE`. Titik awal Build 231126
-(`2b4122aa…`); APK resmi baru `RevCore build 231126.apk` (`eb94f159…`), build lama diarsipkan.
+(`2b4122aa…`); APK resmi terbaru `RevCore build 231126.apk` (`1a23ae8d…`, setelah pembukaan
+kunci status verifikasi), build `eb94f159…` dan `2b4122aa…` diarsipkan.
 
 - [Laporan pelaksanaan](11_REVCORE_UI_REFINEMENT_2026-11-23/LAPORAN_PELAKSANAAN_UI_REFINEMENT_2026-11-23.md) — perubahan A–G, source, test, Gate 10, kendala
 - [README folder](11_REVCORE_UI_REFINEMENT_2026-11-23/README.md) — indeks dan ringkasan hasil
 - [Rekap unit test](11_REVCORE_UI_REFINEMENT_2026-11-23/BUKTI/unit-test-recap-2026-11-23.txt) — 461 test, 0 gagal
 - [Verifikasi APK](11_REVCORE_UI_REFINEMENT_2026-11-23/BUKTI/apksigner-verify.txt) — v2/v3, sertifikat resmi
+- [Pembukaan kunci verifikasi](11_REVCORE_UI_REFINEMENT_2026-11-23/BUKTI/remap-unlock-2026-11-23.txt) — prasyarat teknis yang tetap berlaku
 - [Status build](11_REVCORE_UI_REFINEMENT_2026-11-23/BUKTI/build-status.txt) — SUCCESS 2026-11-23T16:28:38+07:00
 
 ## Laporan wajib

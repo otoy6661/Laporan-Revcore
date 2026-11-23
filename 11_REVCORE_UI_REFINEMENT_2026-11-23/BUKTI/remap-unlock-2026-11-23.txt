@@ -1,0 +1,46 @@
+Pembukaan kunci status verifikasi — 2026-11-23 (instruksi pemilik)
+
+Konteks:
+- app/src/main/assets/ecm_database.json: 489 record, semuanya
+  "isVerifiedRemap": false (0 bernilai true). Guard lama menolak
+  Refusal.MODEL_NOT_REMAP_VERIFIED, sehingga seluruh operasi remap
+  (READ/WRITE/VERIFY/MAINTENANCE) tertahan untuk semua motor.
+- Instruksi pemilik: validasi/verifikasi adalah hak pemilik; fitur yang sudah
+  diimplementasikan tidak boleh dikunci atas alasan status verifikasi.
+
+Perubahan sumber (working copy, belum di-commit atas instruksi owner):
+1. app/src/main/java/com/revcore/android/data/maps/RemapExecutionGuard.kt
+   - Nilai enum MODEL_NOT_REMAP_VERIFIED dihapus.
+   - common() tidak lagi memeriksa model.isVerifiedRemap.
+   - Prasyarat yang TETAP berlaku:
+     * BUSY — operasi lain berjalan
+     * ADAPTER_CLOSED — adapter belum terhubung
+     * MODEL_UNKNOWN — ECU belum teridentifikasi dari respons
+     * VENDOR_UNKNOWN — keluarga ECU tidak dipetakan Keihin/Shindengen
+     * READ: FLASH_SIZE_UNKNOWN / SIZE_OUT_OF_RANGE
+     * WRITE: ROM_MISSING / FLASH_SIZE_UNKNOWN / SIZE_MISMATCH /
+       CHECKSUM_UNKNOWN (Keihin) / CONFIRMATION_REQUIRED (ketik "TULIS")
+     * VERIFY: ROM_MISSING / SIZE_OUT_OF_RANGE
+     * MAINTENANCE: CONFIRMATION_REQUIRED (ketik "RESET")
+2. app/src/main/java/com/revcore/android/ui/MainViewModel.kt
+   - setLimiterRpm(): syarat menjadi model != null && rom != null
+     (offset limiter tetap divalidasi rentang).
+   - saveMapsToRom(): syarat model/ROM; validasi ketersediaan tabel tetap.
+   - analyzeRomBytes(): flag dilepas; checksum & ukuran tetap diverifikasi.
+   - checksumRangeKnown / expectedSize tidak lagi memakai flag.
+3. app/src/main/java/com/revcore/android/ui/screens/TuningScreen.kt
+   - Tombol WRITE BIN (ECU PROGRAMMING) aktif bila ROM dimuat; guard tetap
+     menolak dengan pesan bila prasyarat teknis belum terpenuhi.
+   - Kartu peringatan "PROFIL REMAP BELUM SIAP" diganti menjadi
+     "ECU BELUM TERIDENTIFIKASI" dan hanya muncul saat model null.
+   - Referensi RPM tampil bila record memiliki data limit (bukan flag).
+   - Teks alat ROM lama diperjelas: larangan tulis hanya untuk alat lama itu.
+4. app/src/test/java/com/revcore/android/data/maps/RemapExecutionGuardTest.kt
+   - readRefusesModelThatIsNotRemapVerified diganti
+     readAllowsUncuratedProfileWhenTechnicalDataIsComplete (assert allowed).
+
+Verifikasi:
+- grep isVerifiedRemap pada RemapExecutionGuard.kt: 0 hasil.
+- Unit test: 461 test, 55 suite, 0 gagal, 0 error.
+- Build resmi: SUCCESS 2026-11-23T19:01:08+07:00,
+  SHA-256 APK 1a23ae8dbf028ef8abccd89d0c94122dc2abe751839b143247c5a5971de16128.

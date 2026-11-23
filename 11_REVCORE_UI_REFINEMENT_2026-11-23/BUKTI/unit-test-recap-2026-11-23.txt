@@ -1,11 +1,13 @@
-RevCore — rekap unit test (debug), Work Order UI Refinement 2026-11-23
-Perintah: gradle :app:testDebugUnitTest --offline --console=plain
-Hasil Gradle: BUILD SUCCESSFUL
+Rekap unit test — 2026-11-23 (setelah pembukaan kunci status verifikasi)
 
-Sumber angka: app/build/test-results/testDebugUnitTest/*.xml (55 file suite)
-tests=461  failures=0  errors=0  suites=55
+Perintah : gradle.bat :app:testDebugUnitTest --offline --console=plain
+Hasil    : BUILD SUCCESSFUL
+Artefak  : app/build/test-results/testDebugUnitTest/*.xml
 
-Build pembanding (Build 231126): 460 test. Tambahan 1 test:
-StartupTimingTest > `loading window is its own longer duration, separate from the hold`
-(menjamin LOADING_MIN_VISIBLE_MS > HOLD_BEFORE_LOADING_MS, LOADING_COMPLETION_HOLD_MS > 0,
-FAILURE_LOADING_VISIBLE_MS >= 1000 ms).
+tests=461  failures=0  errors=0  skipped=0  suites=55
+
+Catatan:
+- Tes `readRefusesModelThatIsNotRemapVerified` diganti dengan
+  `readAllowsUncuratedProfileWhenTechnicalDataIsComplete`
+  (profil dengan data teknis lengkap tetapi flag database false kini diizinkan).
+- Jumlah tes tetap 461 (satu tes diganti, bukan ditambah).
