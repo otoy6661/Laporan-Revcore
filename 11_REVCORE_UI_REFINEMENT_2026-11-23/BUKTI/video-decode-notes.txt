@@ -1,0 +1,38 @@
+# Dekode lampiran video — 2026-11-23
+
+Berkas: `D:\Downloads\video6061917185171792154.mp4` (173.400.288 byte).
+
+## Cara dekode (kendala 1 terselesaikan)
+
+- Executor tidak memiliki ffmpeg terpasang dan browser menolak `file://`.
+- Dipasang paket Python `imageio-ffmpeg` 0.8.1 ke `D:\ffmpeg_py`
+  (`py -m pip install --no-deps --target D:/ffmpeg_py imageio-ffmpeg`);
+  paket membawa ffmpeg 9.0.2 win64 di
+  `D:\ffmpeg_py\imageio_ffmpeg\binaries\ffmpeg-win-x86_64-v9.0.2.exe`.
+- Semua keluaran ditulis ke drive D karena drive C hampir penuh (84 MB bebas).
+- Pemeriksaan: `ffmpeg -i` → durasi `00:03:26.73`, video H.264 High
+  1080x1920 55,79 fps, audio AAC mono 48 kHz.
+- Bingkai diambil dengan `fps=1/4, scale=216:-1, tile=6x6` (dua lembar kontak,
+  `video-decode-sheet1.jpg` dan `video-decode-sheet2.jpg`) serta bingkai
+  resolusi penuh pada detik 0, 1, 6, 30, 75, 130, 175, 200, 206.
+
+## Isi video (hasil pengamatan)
+
+Rekaman layar aplikasi remap bergaya FlashPro, bukan segmen animasi loading:
+
+- Detik 0–5: menu `FLASH PRO` (HONDA, YAMAHA, REMAP ECU, UPDATE, ABOUT, PIN ECU,
+  IMMO ID; bilah "MODE EKSPLORASI - ADAPTER BELUM TERHUBUNG").
+- Detik 6–60: `REMAP ANDROID` / `Data ECM` dengan `Open File`, `Save AS`,
+  Home/Dashboard/Diagnostic; dialog `Pilih Motor` berisi grup model dan baris
+  ECM (contoh: HONDA VARIO 110/125/150/160 SERIES) — pemilihan model manual.
+- Detik 60–206: tabel MAP (`Map 1`, `Map 3`) dengan pewarnaan panas,
+  tombol X3/X5/Brsh/Egap, `BLOK EDIT` (COPY/PASTE, Set %, Smooth, keypad angka),
+  grafik permukaan 3D, dan grafik garis Torsi & AFR.
+
+## Kesimpulan
+
+- Lampiran tidak memuat animasi loading; tidak ada acuan visual loading di dalamnya.
+  Animasi loading aplikasi tetap mengikuti deskripsi tekstual work order.
+- Fitur yang tampak (tabel panas MAP, edit blok, grafik 3D, grafik 2D) berada dalam
+  lingkup Tuning yang sudah ada; tidak ada perubahan source tambahan yang dilakukan
+  berdasarkan video ini.

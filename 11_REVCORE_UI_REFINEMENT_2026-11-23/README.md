@@ -15,6 +15,9 @@ Laporan pelaksanaan Work Order UI Refinement. Titik awal: Build 231126 (SHA-256 
 | `BUKTI/sha256.txt` | SHA-256 APK hasil build |
 | `BUKTI/integrity-assets.txt` | Aset Gate 10 di dalam APK |
 | `BUKTI/unit-test-recap-2026-11-23.txt` | Rekap unit test: 461 test, 55 suite, 0 gagal/error |
+| `BUKTI/video-decode-notes.txt` | Cara dekode lampiran video (ffmpeg 9.0.2 via `imageio-ffmpeg`) + isi video |
+| `BUKTI/video-decode-sheet1.jpg`, `video-decode-sheet2.jpg` | Lembar kontak video (sampel tiap 4 detik) |
+| `BUKTI/video-decode-frame-000s.jpg`, `video-decode-frame-200s.jpg` | Bingkai awal dan akhir video |
 
 ## Ringkasan hasil
 
@@ -30,3 +33,5 @@ Laporan pelaksanaan Work Order UI Refinement. Titik awal: Build 231126 (SHA-256 
 - Gate 10 tidak diubah dan tetap berjalan sebagai pemeriksaan integritas aplikasi.
 - Verifikasi UI dan durasi loading di perangkat fisik BELUM dilakukan; menunggu
   penilaian pemilik. Tidak ada operasi tulis ke ECU nyata dalam sesi ini.
+- Lampiran video sudah didekode: berisi UI remap FlashPro-style, tanpa segmen animasi
+  loading; tidak ada perubahan source tambahan berdasarkan video.

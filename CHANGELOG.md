@@ -26,6 +26,11 @@ enam tahap, Live Data/AFR/DTC) dan build APK Release resmi baru. Titik awal Buil
 - Verifikasi UI dan durasi loading di perangkat fisik belum dilakukan; menunggu
   penilaian pemilik. Tidak ada operasi tulis ke ECU nyata.
 
+### Fixed
+- Kendala lampiran video diatasi: video didekode dengan ffmpeg 9.0.2 (paket
+  `imageio-ffmpeg`), hasilnya direkam di `BUKTI/video-decode-*`. Isi video adalah UI
+  remap bergaya FlashPro tanpa segmen animasi loading; tidak ada perubahan source tambahan.
+
 ## [RevCore Master Work Order Execution] — 2026-11-23
 
 Laporan pelaksanaan Master Work Order penuh (audit source, koreksi UI, implementasi

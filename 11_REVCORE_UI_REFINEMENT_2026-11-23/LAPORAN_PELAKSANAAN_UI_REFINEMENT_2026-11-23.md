@@ -64,9 +64,14 @@ pada Poco X3 NFC (Android 12/MIUI 14). Tidak ada klaim penerimaan UI.
 
 ## 6. Kendala / belum terverifikasi
 
-1. Lampiran video `video6061917185171792154.mp4` (acuan animasi loading) tidak dapat dibuka
-   oleh executor: tidak ada ffmpeg dan browser menolak `file://`. Animasi disesuaikan dari
-   deskripsi tekstual work order, bukan bingkai video. Kesesuaian visual menunggu penilaian pemilik.
+1. Lampiran video `video6061917185171792154.mp4` **sudah berhasil dibuka** (ffmpeg 9.0.2 via
+   paket `imageio-ffmpeg`; rincian di `BUKTI/video-decode-notes.txt`). Hasil pengamatan:
+   rekaman 3:26 menit berisi UI remap bergaya FlashPro (menu, `Pilih Motor`, tabel MAP
+   berwarna panas, `BLOK EDIT` dengan Set %/Smooth, grafik 3D, grafik Torsi & AFR) —
+   **tidak ada segmen animasi loading**. Animasi loading karena itu tetap mengikuti
+   deskripsi tekstual work order; tidak ada acuan visual loading yang bisa dicocokkan.
+   Fitur yang tampak di video sudah tercakup lingkup Tuning yang ada; tidak ada perubahan
+   source tambahan berdasarkan video ini.
 2. Verifikasi perangkat fisik seluruh butir A–G belum dilakukan (lihat bagian 5).
 3. Grafik 3D Tuning (`Table3DView`) diuji kompilasi dan unit test saja; belum dilihat di perangkat.
 4. RESET/RENEW Keyless tetap bergantung prosedur kontak/adapter; belum diuji pada ECU nyata
