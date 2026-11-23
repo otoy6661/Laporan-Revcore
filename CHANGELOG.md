@@ -2,6 +2,30 @@
 
 Semua perubahan laporan pada repository ini. Format mengikuti Keep a Changelog secara ringkas; tanggal dalam ISO 8601.
 
+## [RevCore UI Refinement & Official Signed Release] — 2026-11-23
+
+Laporan pelaksanaan Work Order UI Refinement (startup/loading, Keyless ID, Tuning
+enam tahap, Live Data/AFR/DTC) dan build APK Release resmi baru. Titik awal Build
+231126 (`2b4122aa…`); laporan `10_*` dan seluruh arsip lama tidak diubah/dihapus.
+
+### Added
+- `11_REVCORE_UI_REFINEMENT_2026-11-23/` — laporan pelaksanaan, README indeks, dan
+  bukti (`BUKTI/`): status build, ekor log build, `apksigner verify`, `aapt2 badging`,
+  cek `debuggable`, SHA-256 APK, aset Gate 10 di dalam APK, rekap unit test
+  (461 test, 55 suite, 0 gagal/error).
+
+### Changed
+- `README.md` — tabel isi dan bagian tautan laporan UI Refinement 2026-11-23.
+
+### Notes
+- APK Release resmi: `RevCore build 231126.apk`, 39.841.086 byte, SHA-256
+  `eb94f159fa32484b1923516acd4ef024e8283bd0c686bbd20af1133d623dedc9`,
+  sertifikat `c649cb4f…18d098` (sama dengan Build 221126/231126 sebelumnya), v2+v3,
+  bukan debug build. APK tidak diunggah ke repository laporan.
+- Build 231126 sebelumnya diarsipkan ke `dist/archive/RevCore build 231126_162833.apk`.
+- Verifikasi UI dan durasi loading di perangkat fisik belum dilakukan; menunggu
+  penilaian pemilik. Tidak ada operasi tulis ke ECU nyata.
+
 ## [RevCore Master Work Order Execution] — 2026-11-23
 
 Laporan pelaksanaan Master Work Order penuh (audit source, koreksi UI, implementasi

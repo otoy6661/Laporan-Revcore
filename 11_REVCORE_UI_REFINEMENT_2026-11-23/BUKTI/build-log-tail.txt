@@ -1,0 +1,25 @@
+R8 map: security Gson models kept by name (8 classes).
+Verifying APK signature and certificate...
+Certificate SHA-256 (record and pin this after first verified build): c649cb4fd7e67686a99c1df31936a489b89e62a877b8d6b358f64d027a18d098
+Checking that key material was not packaged...
+Verifying signed policy, asset inventory, and native libraries...
+Policy envelope: signature present (SHA256withRSA); package com.revcore.android; 165 assets, 3 protected; native libraries match.
+Generating signed UI/DEX integrity manifest from the final APK...
+Injecting UI/DEX manifest and re-signing with the official key...
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::loadLibrary has been called by org.conscrypt.NativeLibraryUtil in an unnamed module (file:/C:/Users/Lord%20Otoy/AppData/Local/Android/Sdk/build-tools/36.0.0/lib/apksigner.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+System.Management.Automation.RemoteException
+Verifying the re-signed APK and the injected UI/DEX manifest...
+UI/DEX manifest verified: 20 UI entries, 1 DEX entries, 7 compiled XML structures, signed SHA256withRSA.
+Previous build archived: C:\Users\Lord Otoy\Documents\Qoder\work\REVCORE_KEYLESS_20261120\RevCore_work_live_keyless_20261120\dist\archive\RevCore build 231126_162833.apk
+
+Official Release APK: C:\Users\Lord Otoy\Documents\Qoder\work\REVCORE_KEYLESS_20261120\RevCore_work_live_keyless_20261120\dist\RevCore build 231126.apk
+Checksum file: C:\Users\Lord Otoy\Documents\Qoder\work\REVCORE_KEYLESS_20261120\RevCore_work_live_keyless_20261120\dist\RevCore build 231126.sha256.txt
+Size: 39841086 bytes
+SHA-256: eb94f159fa32484b1923516acd4ef024e8283bd0c686bbd20af1133d623dedc9
+Certificate SHA-256: c649cb4fd7e67686a99c1df31936a489b89e62a877b8d6b358f64d027a18d098
+Verification: v2 + v3 signature, not debuggable, package com.revcore.android
+UI/DEX manifest: signed, injected, hashes verified
+Key material inside APK: none found
