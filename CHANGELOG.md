@@ -2,6 +2,32 @@
 
 Semua perubahan laporan pada repository ini. Format mengikuti Keep a Changelog secara ringkas; tanggal dalam ISO 8601.
 
+## [RevCore Work Order 2026-11-24] — 2026-11-24
+
+Work order: `AUDIT, KOREKSI, IMPLEMENTASI PROTOKOL, DATABASE KENDARAAN, DAN PENYESUAIAN GATE 10`.
+Executor: Kodir. Pemilik/penguji final: otoy.
+
+### Added
+- `12_REVCORE_WORK_ORDER_2026-11-24/` — laporan pelaksanaan 17 bagian, audit protokol A–E,
+  README, dan bukti verifikasi APK/Gate 10/unit test/source audit.
+- APK resmi baru: `RevCore build 241126.apk`, 39.836.990 byte, SHA-256
+  `d6dec722c675760b80df1017bd5442c3ae9743835da37ea5c5b506431572f0f2`,
+  sertifikat `c649cb4f…18d098`, v2+v3, bukan debug build.
+
+### Changed
+- `README.md` — tabel isi dan bagian Work Order 2026-11-24 ditambahkan.
+- 462 unit test lulus (0 gagal/error/skipped); Gate 10: 165 aset, 3 protected,
+  0 missing/mismatch, policy/signer/manifest cocok dengan APK final.
+
+### Notes
+- Live Data memakai kartu sensor (A/B/C); Log menyembunyikan kartu protokol tanpa
+  menghapus fungsi internal; USB ON/OFF satu jalur; DTC 0x3000 ditampilkan sebagai
+  kode mentah; Keyless UI status-first dengan progress bertahap.
+- Label/flag "verified remap" dihapus dari database (489 record, 978 kunci) dan logika.
+- Percobaan build pertama gagal karena disk C: penuh; output build dan arsip APK lama
+  dipindahkan ke `D:\RevCore_offload_20261124\`, lalu build ulang berhasil.
+- Tidak ada laporan atau arsip sebelumnya yang dihapus; tidak ada force push.
+
 ## [RevCore Remap Lock Removal & Rebuild] — 2026-11-23
 
 Tindak lanjut instruksi pemilik: status verifikasi database tidak boleh mengunci fitur

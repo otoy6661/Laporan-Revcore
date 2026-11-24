@@ -1,0 +1,115 @@
+﻿RevCore official Release build log
+Started: 2026-11-24T14:24:05.4457222+07:00
+RevCore official Release build
+Project: C:\Users\Lord Otoy\Documents\Qoder\work\REVCORE_KEYLESS_20261120\RevCore_work_live_keyless_20261120
+Local key pack: EXISTS (contents not read)
+PKCS12 keystore: EXISTS (contents not read)
+Using local signing credentials (value not recorded).
+Using local key credentials (value not recorded).
+Building Release with R8 and resource shrinking...
+Starting a Gradle Daemon, 2 stopped Daemons could not be reused, use --status for details
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:mergeReleaseJniLibFolders
+> Task :app:mergeReleaseNativeLibs
+> Task :app:generateReleaseBuildConfig
+> Task :app:checkReleaseDuplicateClasses
+
+> Task :app:stripReleaseDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so. Run with --info option to learn more.
+
+> Task :app:generateReleaseResources
+> Task :app:extractReleaseNativeSymbolTables
+> Task :app:packageReleaseResources
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:processReleaseNavigationResources
+> Task :app:javaPreCompileRelease
+> Task :app:mergeReleaseArtProfile
+> Task :app:parseReleaseLocalResources
+> Task :app:checkReleaseAarMetadata
+> Task :app:mapReleaseSourceSetPaths
+> Task :app:compileReleaseNavigationResources
+> Task :app:generateReleaseRFile
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :app:processReleaseMainManifest
+> Task :app:processReleaseManifest
+> Task :app:extractProguardFiles
+> Task :app:processReleaseManifestForPackage
+> Task :app:mergeReleaseStartupProfile UP-TO-DATE
+
+> Task :app:generateIntegrityPolicyRelease
+RevCore integrity: policy (release) written to C:\Users\Lord Otoy\Documents\Qoder\work\REVCORE_KEYLESS_20261120\RevCore_work_live_keyless_20261120\app\build\generated\integrity\release\assets\integrity_policy.json
+
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :app:mergeReleaseAssets
+> Task :app:extractReleaseVersionControlInfo
+> Task :app:compressReleaseAssets
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
+> Task :app:validateSigningRelease
+> Task :app:writeReleaseAppMetadata
+> Task :app:writeReleaseSigningConfigVersions
+> Task :app:requireOfficialSigning
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseResources
+> Task :app:compileReleaseKotlin
+w: file:///C:/Users/Lord%20Otoy/Documents/Qoder/work/REVCORE_KEYLESS_20261120/RevCore_work_live_keyless_20261120/app/src/main/java/com/revcore/android/core/protocol/HondaProtocolEngine.kt:1518:28 Condition is always 'false'.
+w: file:///C:/Users/Lord%20Otoy/Documents/Qoder/work/REVCORE_KEYLESS_20261120/RevCore_work_live_keyless_20261120/app/src/main/java/com/revcore/android/ui/MainAppScaffold.kt:209:57 'val Icons.Filled.ExitToApp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ExitToApp.
+w: file:///C:/Users/Lord%20Otoy/Documents/Qoder/work/REVCORE_KEYLESS_20261120/RevCore_work_live_keyless_20261120/app/src/main/java/com/revcore/android/ui/screens/DashboardScreen.kt:314:53 'val Icons.Filled.HelpOutline: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.HelpOutline.
+w: file:///C:/Users/Lord%20Otoy/Documents/Qoder/work/REVCORE_KEYLESS_20261120/RevCore_work_live_keyless_20261120/app/src/main/java/com/revcore/android/ui/screens/TuningLogPanel.kt:133:49 'val Icons.Filled.List: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.List.
+
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :app:processReleaseJavaRes
+> Task :app:generateReleaseLintVitalReportModel
+> Task :app:expandReleaseArtProfileWildcards
+> Task :app:mergeReleaseJavaResource
+> Task :app:lintVitalAnalyzeRelease
+> Task :app:minifyReleaseWithR8
+> Task :app:lintVitalReportRelease
+> Task :app:lintVitalRelease
+> Task :app:compileReleaseArtProfile
+> Task :app:convertShrunkResourcesToBinaryRelease
+> Task :app:optimizeReleaseResources
+> Task :app:packageRelease
+> Task :app:createReleaseApkListingFileRedirect
+
+> Task :app:assembleRelease
+RevCore dist: release publish disabled by -Prevcore.publishDist=false; the official build script verifies the APK before exporting it.
+
+[Incubating] Problems report is available at: file:///C:/Users/Lord%20Otoy/Documents/Qoder/work/REVCORE_KEYLESS_20261120/RevCore_work_live_keyless_20261120/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.6.0/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 4m 56s
+52 actionable tasks: 50 executed, 2 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.6.0/userguide/configuration_cache_enabling.html
+R8 map: security Gson models kept by name (8 classes).
+Verifying APK signature and certificate...
+Certificate SHA-256 (record and pin this after first verified build): c649cb4fd7e67686a99c1df31936a489b89e62a877b8d6b358f64d027a18d098
+Checking that key material was not packaged...
+Verifying signed policy, asset inventory, and native libraries...
+Policy envelope: signature present (SHA256withRSA); package com.revcore.android; 165 assets, 3 protected; native libraries match.
+Generating signed UI/DEX integrity manifest from the final APK...
+Injecting UI/DEX manifest and re-signing with the official key...
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::loadLibrary has been called by org.conscrypt.NativeLibraryUtil in an unnamed module (file:/C:/Users/Lord%20Otoy/AppData/Local/Android/Sdk/build-tools/36.0.0/lib/apksigner.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+System.Management.Automation.RemoteException
+Verifying the re-signed APK and the injected UI/DEX manifest...
+UI/DEX manifest verified: 20 UI entries, 1 DEX entries, 7 compiled XML structures, signed SHA256withRSA.
+
+Official Release APK: C:\Users\Lord Otoy\Documents\Qoder\work\REVCORE_KEYLESS_20261120\RevCore_work_live_keyless_20261120\dist\RevCore build 241126.apk
+Checksum file: C:\Users\Lord Otoy\Documents\Qoder\work\REVCORE_KEYLESS_20261120\RevCore_work_live_keyless_20261120\dist\RevCore build 241126.sha256.txt
+Size: 39836990 bytes
+SHA-256: d6dec722c675760b80df1017bd5442c3ae9743835da37ea5c5b506431572f0f2
+Certificate SHA-256: c649cb4fd7e67686a99c1df31936a489b89e62a877b8d6b358f64d027a18d098
+Verification: v2 + v3 signature, not debuggable, package com.revcore.android
+UI/DEX manifest: signed, injected, hashes verified
+Key material inside APK: none found

@@ -1,0 +1,26 @@
+APK: RevCore build 241126.apk
+SIZE: 39836990
+SHA256: d6dec722c675760b80df1017bd5442c3ae9743835da37ea5c5b506431572f0f2
+STATUS: SUCCESS 2026-11-24T14:24:05.5827736+07:00
+--- aapt2 badging ---
+package: name='com.revcore.android' versionCode='1' versionName='1.0' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'
+minSdkVersion:'26'
+targetSdkVersion:'36'
+--- apksigner verify ---
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=RevCore Official, OU=Release, O=RevCore, L=Jakarta, ST=DKI Jakarta, C=ID
+Signer #1 certificate SHA-256 digest: c649cb4fd7e67686a99c1df31936a489b89e62a877b8d6b358f64d027a18d098
+Signer #1 certificate SHA-1 digest: 388637719c378c3c4b9823c7784c093989b9bd6f
+Signer #1 certificate MD5 digest: 4617b9f089e6169df451e5b257c9a48d
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: debd3e8ed682223b4f1cd169cbf78a1e2bc07d8834ed01508a38e7c4f4f44b29
+Signer #1 public key SHA-1 digest: f7d62176a6296549018ad02b2b7570118f7f61bc
+Signer #1 public key MD5 digest: 36ed168217aefc8fa922c8dde45f9e9d

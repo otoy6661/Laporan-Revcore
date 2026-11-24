@@ -1,0 +1,8 @@
+AUDIT GREP — 2026-11-24
+isVerified keys in ecm_database.json: 0
+EcmModel isVerified fields: 0
+IdentityMatchQuality.VERIFIED references: 0
+remap-verified UI text: 0
+MapValidator STRUCTURE_MATCHES_OFFLINE_PROFILE: 3
+ConnectionPipelineStep FLASH_VERIFIED: 0
+ProtocolManagerCard call sites: 1

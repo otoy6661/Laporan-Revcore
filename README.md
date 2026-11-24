@@ -23,6 +23,7 @@ Laporan Tahap 1 dipertahankan utuh sebagai riwayat penelitian. Dokumen Tahap 2 m
 | `09_REVCORE_MIGRASI_2026-11-23/` | Laporan migrasi, rebuild, tes, verifikasi paket, dan verifikasi kesesuaian work order (Gate 10 & inventaris kunci dikecualikan) |
 | `10_REVCORE_PELAKSANAAN_2026-11-23/` | Laporan pelaksanaan Master Work Order: audit penuh, tujuh koreksi UI, implementasi protokol, build APK Release resmi 231126 |
 | `11_REVCORE_UI_REFINEMENT_2026-11-23/` | Laporan pelaksanaan Work Order UI Refinement: startup/loading, Keyless ID, struktur Tuning, Live Data/AFR/DTC, pembukaan kunci status verifikasi, build resmi (SHA-256 `1a23ae8d…`) |
+| `12_REVCORE_WORK_ORDER_2026-11-24/` | Laporan Work Order 2026-11-24: Live Data, Log, USB, DTC 0x3000, Keyless UI, audit database, protokol A–E, Gate 10, build resmi 241126 (SHA-256 `d6dec722…`) |
 
 ## Laporan teknis RevCore (2026-11-20)
 
@@ -81,6 +82,19 @@ kunci status verifikasi), build `eb94f159…` dan `2b4122aa…` diarsipkan.
 - [Verifikasi APK](11_REVCORE_UI_REFINEMENT_2026-11-23/BUKTI/apksigner-verify.txt) — v2/v3, sertifikat resmi
 - [Pembukaan kunci verifikasi](11_REVCORE_UI_REFINEMENT_2026-11-23/BUKTI/remap-unlock-2026-11-23.txt) — prasyarat teknis yang tetap berlaku
 - [Status build](11_REVCORE_UI_REFINEMENT_2026-11-23/BUKTI/build-status.txt) — SUCCESS 2026-11-23T16:28:38+07:00
+
+## Laporan Work Order 2026-11-24
+
+Work order: `AUDIT, KOREKSI, IMPLEMENTASI PROTOKOL, DATABASE KENDARAAN, DAN PENYESUAIAN GATE 10`.
+Titik awal Build 231126 (`1a23ae8d…`); APK resmi baru `RevCore build 241126.apk`
+(`d6dec722…`). 462 test lulus; Gate 10 diverifikasi konsisten dengan APK final.
+
+- [Laporan pelaksanaan 17 bagian](12_REVCORE_WORK_ORDER_2026-11-24/LAPORAN_PELAKSANAAN_WORK_ORDER_2026-11-24.md) — perubahan per pasal, hasil uji, build
+- [Audit protokol A–E](12_REVCORE_WORK_ORDER_2026-11-24/PROTOCOL_AUDIT_2026-11-24.md) — diimplementasikan, lock, parsial, referensi, spesifikasi kurang
+- [README folder](12_REVCORE_WORK_ORDER_2026-11-24/README.md) — indeks dan batas klaim
+- [Verifikasi APK](12_REVCORE_WORK_ORDER_2026-11-24/BUKTI/apk-verify-241126.txt) — v2/v3, cert pin, versi
+- [Verifikasi Gate 10](12_REVCORE_WORK_ORDER_2026-11-24/BUKTI/gate10-verify-241126.txt) — 165 aset, 3 protected, 0 mismatch
+- [Rekap unit test](12_REVCORE_WORK_ORDER_2026-11-24/BUKTI/unit-test-recap-2026-11-24.txt) — 462 test, 0 gagal
 
 ## Laporan wajib
 
