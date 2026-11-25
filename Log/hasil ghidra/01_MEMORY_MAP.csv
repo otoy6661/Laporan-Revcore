@@ -1,0 +1,7 @@
+name,start,end,size,initialized,read,write,execute
+"ram","00000000","0015581f",1398816,true,true,true,true
+"ESP32_DROM","3f400020","3f43387b",211036,true,true,false,false
+"ESP32_DRAM","3ffbdb60","3ffc3893",23860,true,true,true,false
+"ESP32_IRAM_1","40080000","40086a57",27224,true,true,true,true
+"ESP32_IRAM_2","40086a58","4009ad7f",82728,true,true,true,true
+"ESP32_IROM","400d0020","401d14bf",1053856,true,true,false,true

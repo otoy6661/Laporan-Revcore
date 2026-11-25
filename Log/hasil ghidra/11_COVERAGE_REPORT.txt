@@ -1,0 +1,33 @@
+FLASHPro FULL FIRMWARE COVERAGE REPORT
+======================================
+
+Functions registered : 12867
+Decompile success    : 12865
+Decompile failed     : 2
+Decompile timeout    : 0
+Function instructions: 596756
+Defined data items   : 34588
+Call references      : 52475
+All references       : 267880
+
+AUDIT LIMITATIONS
+=================
+1. Function inventory hanya mencakup fungsi yang sudah dikenali Ghidra.
+2. Executable instruction export hanya mencakup instruksi yang sudah terdefinisi Ghidra.
+3. Undefined bytes belum otomatis diklasifikasikan sebagai kode atau data.
+4. Data yang belum didefinisikan Ghidra belum muncul di inventory defined data.
+5. String yang belum dikenali sebagai tipe string belum tentu terdeteksi.
+6. Dekompilasi sukses bukan bukti bahwa interpretasi semantiknya benar.
+7. XREF yang tercatat bergantung pada analisis dan reference database Ghidra.
+
+NEXT AUDIT REQUIRED
+===================
+Periksa seluruh fungsi gagal, timeout, dan fungsi tanpa nama bermakna.
+Periksa executable block yang masih memiliki area undefined.
+Periksa data dan string yang belum dikenali Ghidra.
+Bangun call graph dari ALL_REFERENCES dan cocokkan dengan disassembly.
+Lakukan analisis manual lanjutan untuk protokol, peripheral, UART, GPIO,
+Bluetooth, EEPROM, interrupt, timer, display, dan fitur firmware lainnya.
+
+STATUS: INVENTARIS DASAR DIEKSPOR. BELUM BOLEH DIANGGAP SEBAGAI
+BUKTI BAHWA SELURUH FIRMWARE SUDAH DIPAHAMI 100 PERSEN.
